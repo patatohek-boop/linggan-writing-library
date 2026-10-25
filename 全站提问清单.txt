@@ -1,0 +1,1972 @@
+Gemini 全站原始提问清单
+整理日期：2026-10-25
+范围：当前网站 92 项任务，152 条用户原始提问（含全部续问）。
+原网站：https://patatohek-boop.github.io/linggan-writing-library/
+可直读交接入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-handoff.html
+用途：逐项开展文风审查、事实核实、原问解答、灵感及知识补充；执行时另读每项完整聊天与聊天内文档。
+原文规则：保留全部 role=user 消息，重复提问、笔误、继续等均未删除或改写。每项按原消息次序排列。
+续问规则：同任务的后续用户消息均列为后续提问；“继续”和“我希望再多一些”另标为纯延续，并指向前一实质提问。
+数量规则：只摘每次原文字面要求；未给数目或有笔误的地方不补出数字；不得把后续数目擅自推作对所有旧项的统一要求。
+来源规则：范围仅限本网站收录的任务，不加入其他账号工作、聊天或项目。
+执行状态：此清单全部为待 Gemini 阅读与处理；生成清单不代表已完成研究或文风审查。
+链接说明：可直读页及 QID 锚点由交接网站发布后核验。
+源 data.json SHA256：68f07e8a9064f39b16269dc203cb18619a36b5200c840b0427ee1fe618a22516
+有序原问记录 SHA256：d28bf514f7bde1fbf930f9acbd5d91bd915cebe8c3bab501ecd0066bd09ec263
+
+主题导航（沿用网站分类；不同任务里的相同问题仍各自保留）
+
+世界观与选题：16 项任务，34 条提问
+  001｜整理近代世界观｜3 问｜灵感
+  002｜历史整理与世界观衍生｜2 问｜灵感
+  003｜世界观搜集与创新方法｜3 问｜灵感
+  004｜整理热门世界观｜3 问｜灵感
+  005｜男频世界观整理｜3 问｜灵感
+  006｜推理世界观搭建｜3 问｜灵感
+  007｜整理热门男频设定｜2 问｜灵感
+  008｜科幻世界观创作｜2 问｜灵感
+  009｜男频网文大纲指南｜1 问｜灵感
+  010｜男频热门题材整理｜2 问｜灵感
+  011｜整理推理世界观搭建指南｜1 问｜灵感
+  012｜悬疑世界观搭建指南｜2 问｜灵感
+  031｜世界观灵感理论合集｜1 问｜灵感
+  032｜整理经典世界观设定｜1 问｜灵感
+  033｜网文世界观构建技巧｜1 问｜灵感
+  087｜完善蒸汽朋克世界观｜4 问｜灵感
+
+历史与文化素材：23 项任务，52 条提问
+  013｜整理名人名言｜2 问｜灵感
+  014｜整理史诗典故｜3 问｜灵感
+  015｜整理中外创作素材｜3 问｜灵感
+  016｜整理政治斗争案例｜1 问｜灵感
+  019｜整理经典素材｜1 问｜灵感
+  021｜整理刻奇相关名词｜1 问｜灵感
+  068｜商3｜2 问｜历史类
+  069｜周1｜3 问｜历史类
+  070｜封建经典桥段3｜2 问｜历史类
+  071｜封建经典桥段2｜1 问｜历史类
+  072｜封建经典桥段1｜1 问｜历史类
+  073｜封建英雄桥段3｜1 问｜历史类
+  074｜封建英雄桥段1｜1 问｜历史类
+  075｜封建英雄桥段2｜1 问｜历史类
+  076｜春秋战国1｜4 问｜历史类
+  077｜秦汉4｜4 问｜历史类
+  078｜商2｜3 问｜历史类
+  079｜秦汉3｜4 问｜历史类
+  080｜秦汉2｜4 问｜历史类
+  081｜周2｜3 问｜历史类
+  082｜商1｜3 问｜历史类
+  083｜秦汉1｜3 问｜历史类
+  084｜商4｜1 问｜补充聊天
+
+感官与心理：3 项任务，5 条提问
+  017｜整理感官疾病写作技巧｜2 问｜灵感
+  018｜整理罕见疾病100条｜2 问｜灵感
+  058｜整理罕见疾病灵感｜1 问｜灵感
+
+个人灵感笔记：2 项任务，6 条提问
+  020｜分支 · 整理延申建议｜2 问｜灵感
+  023｜笔记整理延申建议｜4 问｜灵感
+
+叙事与结构：19 项任务，23 条提问
+  022｜犯罪者被害者创作整理｜1 问｜灵感
+  028｜整理作案谜题灵感｜1 问｜灵感
+  029｜整理作案谜题灵感｜1 问｜灵感
+  034｜整理网文伏笔技巧｜1 问｜灵感
+  044｜整理悬疑写作技巧桥段｜2 问｜灵感
+  045｜悬疑写作技巧桥段整理｜1 问｜灵感
+  046｜整理推理写作技巧与桥段｜1 问｜灵感
+  047｜悬疑写作灵感整理｜2 问｜灵感
+  048｜奇幻网文写作指南｜1 问｜灵感
+  049｜写好历史网文｜1 问｜灵感
+  051｜写好玄幻网文｜1 问｜灵感
+  052｜写好男频网文指南｜1 问｜灵感
+  055｜网文写作技巧整理｜1 问｜灵感
+  056｜整理网文爽点技巧｜1 问｜灵感
+  057｜整理小说写作技巧｜1 问｜灵感
+  085｜博弈写作技巧｜1 问｜灵感
+  090｜整理冲突写作技巧｜1 问｜灵感
+  091｜整理法律悬疑素材｜2 问｜灵感
+  092｜悬疑职业与查案技巧整理｜2 问｜灵感
+
+人物与关系：15 项任务，16 条提问
+  024｜阿尔法男性创作要点｜1 问｜灵感
+  025｜叛逆领袖人物创作要点｜1 问｜灵感
+  027｜整理浪漫感情桥段｜1 问｜灵感
+  035｜整理高智商人物桥段技巧｜1 问｜灵感
+  036｜整理群像桥段技巧｜1 问｜灵感
+  037｜女主塑造技巧整理｜1 问｜灵感
+  038｜男二桥段技巧整理｜2 问｜灵感
+  039｜浪子形象写作灵感｜1 问｜灵感
+  040｜整理毒舌幽默桥段｜1 问｜灵感
+  041｜整理人物口才桥段｜1 问｜灵感
+  042｜整理人物口才桥段｜1 问｜灵感
+  043｜整理毒舌幽默桥段｜1 问｜灵感
+  086｜整理台词写作技巧｜1 问｜灵感
+  088｜整理人物情绪写作技巧｜1 问｜灵感
+  089｜人物塑造技巧整理｜1 问｜灵感
+
+影视与音乐：3 项任务，4 条提问
+  026｜整理音乐流派灵感｜1 问｜灵感
+  030｜整理视听语言技巧｜1 问｜灵感
+  050｜整理电影理论写作灵感｜2 问｜灵感
+
+AI与写作工具：2 项任务，2 条提问
+  053｜网文写作提示词｜1 问｜灵感
+  054｜AI网文写作提示词｜1 问｜灵感
+
+空心世界原创设定：2 项任务，2 条提问
+  059｜空心世界观｜1 问｜补充聊天
+  060｜空心世界观2｜1 问｜补充聊天
+
+写作方案与建议：2 项任务，3 条提问
+  061｜写作建议1｜1 问｜补充聊天
+  062｜写作建议2｜2 问｜补充聊天
+
+神话与传说素材：5 项任务，5 条提问
+  063｜洪荒-合并各地神话1｜1 问｜神话类
+  064｜洪荒-合并各地神话2｜1 问｜神话类
+  065｜各地神话整理3｜1 问｜神话类
+  066｜各地神话整理2｜1 问｜神话类
+  067｜各地神话整理1｜1 问｜神话类
+
+逐项原始提问（原文开始/结束之间为完整原文）
+
+任务 001｜整理近代世界观
+来源项目：灵感；分类：世界观与选题；用户提问：3 条；完整聊天消息：5 条；聊天内文档引用：2 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-001.html
+
+[task-001-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-001.html#task-001-q01
+关系：任务首问；任务首问 task-001-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：f97eb8584253deb68e52c6c1c2c252cc4493e8d09a536529ce6239201de87857
+【原文开始：task-001-q01；字符数=27】
+我想进行网文写作，希望能够查找整理近代世界观辅助我写作
+【原文结束：task-001-q01】
+
+[task-001-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-001.html#task-001-q02
+关系：数量要求补充；前一实质提问 task-001-q01；任务首问 task-001-q01
+数量原文：不少于100种
+原文 SHA256：e53638c93b1ec0c7b3a65639dec6305cb21c417e834d377a80c2de1c6d891f01
+【原文开始：task-001-q02；字符数=15】
+整理或者构建出不少于100种吧
+【原文结束：task-001-q02】
+
+[task-001-q03] 原任务第 3 次提问（原消息第 4 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-001.html#task-001-q03
+关系：仅继续；前一实质提问 task-001-q02；任务首问 task-001-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：7c9691192f1b73408bbe4c0cb6d00db94375ca9d8fce0a0d5985e7a5178f083f
+【原文开始：task-001-q03；字符数=2】
+继续
+【原文结束：task-001-q03】
+
+任务 002｜历史整理与世界观衍生
+来源项目：灵感；分类：世界观与选题；用户提问：2 条；完整聊天消息：3 条；聊天内文档引用：1 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-002.html
+
+[task-002-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-002.html#task-002-q01
+关系：任务首问；任务首问 task-002-q01
+数量原文：不少于50种
+原文 SHA256：48182f74035173f8127fb8643732c7baa9786282ba1792f2282b319999902857
+【原文开始：task-002-q01；字符数=115】
+我想进行男频网文写作，我目前对第一次工业革命后到苏联解体前的世界观与历史感兴趣，请帮助我搜集整理这段历史期间的各国的社会、经济、政治、文化、历史、思想、科技背景（分时间段进行），并给出衍生的世界观，（例如蒸汽朋克等，不少于50种）
+【原文结束：task-002-q01】
+
+[task-002-q02] 原任务第 2 次提问（原消息第 2 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-002.html#task-002-q02
+关系：仅继续；前一实质提问 task-002-q01；任务首问 task-002-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：7c9691192f1b73408bbe4c0cb6d00db94375ca9d8fce0a0d5985e7a5178f083f
+【原文开始：task-002-q02；字符数=2】
+继续
+【原文结束：task-002-q02】
+
+任务 003｜世界观搜集与创新方法
+来源项目：灵感；分类：世界观与选题；用户提问：3 条；完整聊天消息：5 条；聊天内文档引用：1 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-003.html
+
+[task-003-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-003.html#task-003-q01
+关系：任务首问；任务首问 task-003-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：79ae65215f6a524151abf338c63731fe39d4fb413689c496e42aa4519929af97
+【原文开始：task-003-q01；字符数=74】
+我想进行男频网文写作，请帮助我搜集整理合适的世界观，例如蒸汽朋克、赛博朋克、其他的什么朋克、朋克之外的世界观，并告诉我如何发展出新颖的我自己的世界观
+【原文结束：task-003-q01】
+
+[task-003-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-003.html#task-003-q02
+关系：数量要求补充；前一实质提问 task-003-q01；任务首问 task-003-q01
+数量原文：不少于100种
+原文 SHA256：e53638c93b1ec0c7b3a65639dec6305cb21c417e834d377a80c2de1c6d891f01
+【原文开始：task-003-q02；字符数=15】
+整理或者构建出不少于100种吧
+【原文结束：task-003-q02】
+
+[task-003-q03] 原任务第 3 次提问（原消息第 4 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-003.html#task-003-q03
+关系：仅继续；前一实质提问 task-003-q02；任务首问 task-003-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：7c9691192f1b73408bbe4c0cb6d00db94375ca9d8fce0a0d5985e7a5178f083f
+【原文开始：task-003-q03；字符数=2】
+继续
+【原文结束：task-003-q03】
+
+任务 004｜整理热门世界观
+来源项目：灵感；分类：世界观与选题；用户提问：3 条；完整聊天消息：5 条；聊天内文档引用：1 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-004.html
+
+[task-004-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-004.html#task-004-q01
+关系：任务首问；任务首问 task-004-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：ed31204438bafc12593014d7e9a8f4811b02bbff3d32024b6da32a989a8a605b
+【原文开始：task-004-q01；字符数=33】
+我想进行男频网文写作，请帮助我搜集整理目前起点与番茄里热门的世界观
+【原文结束：task-004-q01】
+
+[task-004-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-004.html#task-004-q02
+关系：数量要求补充；前一实质提问 task-004-q01；任务首问 task-004-q01
+数量原文：不少于100种
+原文 SHA256：e53638c93b1ec0c7b3a65639dec6305cb21c417e834d377a80c2de1c6d891f01
+【原文开始：task-004-q02；字符数=15】
+整理或者构建出不少于100种吧
+【原文结束：task-004-q02】
+
+[task-004-q03] 原任务第 3 次提问（原消息第 4 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-004.html#task-004-q03
+关系：仅继续；前一实质提问 task-004-q02；任务首问 task-004-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：7c9691192f1b73408bbe4c0cb6d00db94375ca9d8fce0a0d5985e7a5178f083f
+【原文开始：task-004-q03；字符数=2】
+继续
+【原文结束：task-004-q03】
+
+任务 005｜男频世界观整理
+来源项目：灵感；分类：世界观与选题；用户提问：3 条；完整聊天消息：5 条；聊天内文档引用：1 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-005.html
+
+[task-005-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-005.html#task-005-q01
+关系：任务首问；任务首问 task-005-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：f9deea4e64c1518b700ff0d95dd3732a225a4a7707434971d0dbba97af3b20b7
+【原文开始：task-005-q01；字符数=54】
+我想进行男频网文写作，请帮助我搜集整理合适的世界观，例如蒸汽朋克、赛博朋克、其他的什么朋克、朋克之外的世界观
+【原文结束：task-005-q01】
+
+[task-005-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-005.html#task-005-q02
+关系：数量要求补充；前一实质提问 task-005-q01；任务首问 task-005-q01
+数量原文：不少于100种
+原文 SHA256：e53638c93b1ec0c7b3a65639dec6305cb21c417e834d377a80c2de1c6d891f01
+【原文开始：task-005-q02；字符数=15】
+整理或者构建出不少于100种吧
+【原文结束：task-005-q02】
+
+[task-005-q03] 原任务第 3 次提问（原消息第 4 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-005.html#task-005-q03
+关系：仅继续；前一实质提问 task-005-q02；任务首问 task-005-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：7c9691192f1b73408bbe4c0cb6d00db94375ca9d8fce0a0d5985e7a5178f083f
+【原文开始：task-005-q03；字符数=2】
+继续
+【原文结束：task-005-q03】
+
+任务 006｜推理世界观搭建
+来源项目：灵感；分类：世界观与选题；用户提问：3 条；完整聊天消息：5 条；聊天内文档引用：1 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-006.html
+
+[task-006-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-006.html#task-006-q01
+关系：任务首问；任务首问 task-006-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：d0cb473d24c9dc7fe48aef1e9c101bd5d8070d015424a6c8c78401154e237813
+【原文开始：task-006-q01；字符数=68】
+我想进行男频网文写作，请帮助我搜集整理合适的推理世界观，本格变格均可，并告诉我如何搭建自己的世界观（比如说蒸汽朋克？赛博朋克？诸如此类）
+【原文结束：task-006-q01】
+
+[task-006-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-006.html#task-006-q02
+关系：数量要求补充；前一实质提问 task-006-q01；任务首问 task-006-q01
+数量原文：不少于100种
+原文 SHA256：e53638c93b1ec0c7b3a65639dec6305cb21c417e834d377a80c2de1c6d891f01
+【原文开始：task-006-q02；字符数=15】
+整理或者构建出不少于100种吧
+【原文结束：task-006-q02】
+
+[task-006-q03] 原任务第 3 次提问（原消息第 4 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-006.html#task-006-q03
+关系：仅继续；前一实质提问 task-006-q02；任务首问 task-006-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：7c9691192f1b73408bbe4c0cb6d00db94375ca9d8fce0a0d5985e7a5178f083f
+【原文开始：task-006-q03；字符数=2】
+继续
+【原文结束：task-006-q03】
+
+任务 007｜整理热门男频设定
+来源项目：灵感；分类：世界观与选题；用户提问：2 条；完整聊天消息：4 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-007.html
+
+[task-007-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-007.html#task-007-q01
+关系：任务首问；任务首问 task-007-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：0ddf86335146c581110cc2412ac4df144d28cbba82c4c5e2a0c811a76892c53c
+【原文开始：task-007-q01；字符数=32】
+我想进行男频网文写作，请帮助我搜集整理目前起点与番茄里热门的设定
+【原文结束：task-007-q01】
+
+[task-007-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-007.html#task-007-q02
+关系：数量要求补充；前一实质提问 task-007-q01；任务首问 task-007-q01
+数量原文：不少于100种
+原文 SHA256：e53638c93b1ec0c7b3a65639dec6305cb21c417e834d377a80c2de1c6d891f01
+【原文开始：task-007-q02；字符数=15】
+整理或者构建出不少于100种吧
+【原文结束：task-007-q02】
+
+任务 008｜科幻世界观创作
+来源项目：灵感；分类：世界观与选题；用户提问：2 条；完整聊天消息：3 条；聊天内文档引用：1 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-008.html
+
+[task-008-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-008.html#task-008-q01
+关系：任务首问；任务首问 task-008-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：efa5f099eef9d8017888af9eff7dbb64d58d1cf11ff745dbc0d4d7b0ca6ba939
+【原文开始：task-008-q01；字符数=40】
+我想进行男频网文写作，请帮助我搜集整理科幻世界观，并告诉我如何发展出新颖的世界观
+【原文结束：task-008-q01】
+
+[task-008-q02] 原任务第 2 次提问（原消息第 2 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-008.html#task-008-q02
+关系：仅继续；前一实质提问 task-008-q01；任务首问 task-008-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：7c9691192f1b73408bbe4c0cb6d00db94375ca9d8fce0a0d5985e7a5178f083f
+【原文开始：task-008-q02；字符数=2】
+继续
+【原文结束：task-008-q02】
+
+任务 009｜男频网文大纲指南
+来源项目：灵感；分类：世界观与选题；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：1 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-009.html
+
+[task-009-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-009.html#task-009-q01
+关系：任务首问；任务首问 task-009-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：10a5dd20c47930c84100f7654fe04c5643c0faf15d63e6538ca90bacfcc92dcd
+【原文开始：task-009-q01；字符数=41】
+我想进行男频网文写作，请帮助我搜集整理大纲的搭建技巧与方法，以及成功作者的参考范例
+【原文结束：task-009-q01】
+
+任务 010｜男频热门题材整理
+来源项目：灵感；分类：世界观与选题；用户提问：2 条；完整聊天消息：4 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-010.html
+
+[task-010-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-010.html#task-010-q01
+关系：任务首问；任务首问 task-010-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：0f8d800ec5b988330f8d9c8636a085b71cffd46061eb955e793db903d50fb083
+【原文开始：task-010-q01；字符数=32】
+我想进行男频网文写作，请帮助我搜集整理目前起点与番茄里热门的题材
+【原文结束：task-010-q01】
+
+[task-010-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-010.html#task-010-q02
+关系：数量要求补充；前一实质提问 task-010-q01；任务首问 task-010-q01
+数量原文：不少于100种
+原文 SHA256：e53638c93b1ec0c7b3a65639dec6305cb21c417e834d377a80c2de1c6d891f01
+【原文开始：task-010-q02；字符数=15】
+整理或者构建出不少于100种吧
+【原文结束：task-010-q02】
+
+任务 011｜整理推理世界观搭建指南
+来源项目：灵感；分类：世界观与选题；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：1 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-011.html
+
+[task-011-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-011.html#task-011-q01
+关系：任务首问；任务首问 task-011-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：7e79e6430f7b79bec506e6db0eb3cfc31122423e6e2993223adac6ba753d1063
+【原文开始：task-011-q01；字符数=49】
+我想进行男频网文写作，请帮助我搜集整理合适的推理世界观，本格变格均可，并告诉我如何搭建自己的世界观
+【原文结束：task-011-q01】
+
+任务 012｜悬疑世界观搭建指南
+来源项目：灵感；分类：世界观与选题；用户提问：2 条；完整聊天消息：4 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-012.html
+
+[task-012-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-012.html#task-012-q01
+关系：任务首问；任务首问 task-012-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：5a7cb28f2e4325dea896c492730d7796aa7710607b9f0333342a9a2d97bed533
+【原文开始：task-012-q01；字符数=49】
+我想进行男频网文写作，请帮助我搜集整理合适的悬疑世界观，本格变格均可，并告诉我如何搭建自己的世界观
+【原文结束：task-012-q01】
+
+[task-012-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-012.html#task-012-q02
+关系：数量要求补充；前一实质提问 task-012-q01；任务首问 task-012-q01
+数量原文：不少于100种
+原文 SHA256：e53638c93b1ec0c7b3a65639dec6305cb21c417e834d377a80c2de1c6d891f01
+【原文开始：task-012-q02；字符数=15】
+整理或者构建出不少于100种吧
+【原文结束：task-012-q02】
+
+任务 013｜整理名人名言
+来源项目：灵感；分类：历史与文化素材；用户提问：2 条；完整聊天消息：4 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-013.html
+
+[task-013-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-013.html#task-013-q01
+关系：任务首问；任务首问 task-013-q01
+数量原文：中外各100条；有几条即可
+原文 SHA256：5d8c24aee20284ff216878bb413e664b92310818fc33095f5c1e111189485d04
+【原文开始：task-013-q01；字符数=79】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理类似“河水在此，吾不食言！“（包括此句）的名人名言，中外各100条（不要太常见、也不要全是说教，有几条即可）
+【原文结束：task-013-q01】
+
+[task-013-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-013.html#task-013-q02
+关系：主题或内容扩展；前一实质提问 task-013-q01；任务首问 task-013-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：16057dfda14ea2cad10262b9890a4350f05c2c2452686aae2dc223c691aab3c9
+【原文开始：task-013-q02；字符数=26】
+反例（如司马懿指洛水为誓）或者其他非典型的也整理一下
+【原文结束：task-013-q02】
+
+任务 014｜整理史诗典故
+来源项目：灵感；分类：历史与文化素材；用户提问：3 条；完整聊天消息：6 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-014.html
+
+[task-014-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-014.html#task-014-q01
+关系：任务首问；任务首问 task-014-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：91f24d2d66c42585ddfb24d580a2dcfec92d3819f84acaebb62b9d09455eeaa8
+【原文开始：task-014-q01；字符数=42】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理大桥上的贺雷修斯这种类似史诗的典故
+【原文结束：task-014-q01】
+
+[task-014-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-014.html#task-014-q02
+关系：主题或内容扩展；前一实质提问 task-014-q01；任务首问 task-014-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：86c250ddf1fb1b54ce6dcd216230de3be834bb2649d80a2d11c0bb4636c34601
+【原文开始：task-014-q02；字符数=21】
+除了英雄之外的史诗典故呢？也整理搜集一下吧
+【原文结束：task-014-q02】
+
+[task-014-q03] 原任务第 3 次提问（原消息第 5 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-014.html#task-014-q03
+关系：交付形式或说明补充；前一实质提问 task-014-q02；任务首问 task-014-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：dfd511480d7afc985bc51dfd6dedac8108de78ea4f59fb0bffda863108a6908a
+【原文开始：task-014-q03；字符数=12】
+请给出对应原文并附上解释
+【原文结束：task-014-q03】
+
+任务 015｜整理中外创作素材
+来源项目：灵感；分类：历史与文化素材；用户提问：3 条；完整聊天消息：5 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-015.html
+
+[task-015-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-015.html#task-015-q01
+关系：任务首问；任务首问 task-015-q01
+数量原文：中外各50条
+原文 SHA256：b868cdd780748aa0eedba6e2fcebcbab174da98f6e8cfb7653023b3f758a439f
+【原文开始：task-015-q01；字符数=46】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理诗、格局、戏剧、戏剧、话剧等，中外各50条
+【原文结束：task-015-q01】
+
+[task-015-q02] 原任务第 2 次提问（原消息第 2 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-015.html#task-015-q02
+关系：重述或修正提问；前一实质提问 task-015-q01；任务首问 task-015-q01
+数量原文：中外各50条
+原文 SHA256：6de02ed4293161dbc73405ef991d964c29f330ce11fadd5ae8b61f646a62acd3
+【原文开始：task-015-q02；字符数=46】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理诗、歌剧、戏剧、戏剧、话剧等，中外各50条
+【原文结束：task-015-q02】
+
+[task-015-q03] 原任务第 3 次提问（原消息第 4 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-015.html#task-015-q03
+关系：交付形式或说明补充；前一实质提问 task-015-q02；任务首问 task-015-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：2c263696a440ada85ea1fae3c2ec2ac002b820864f6bf9a56607345f1bfa97e3
+【原文开始：task-015-q03；字符数=18】
+请给出对应的内容概括、经典原文与解释
+【原文结束：task-015-q03】
+
+任务 016｜整理政治斗争案例
+来源项目：灵感；分类：历史与文化素材；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-016.html
+
+[task-016-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-016.html#task-016-q01
+关系：任务首问；任务首问 task-016-q01
+数量原文：中外各50条
+原文 SHA256：3568cdb8e81376612cbd0c765510a1d439ee5701c8f4942f2feb781eb07b12c1
+【原文开始：task-016-q01；字符数=50】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理政治斗争案例、故事与政治阴谋、阳谋等，中外各50条
+【原文结束：task-016-q01】
+
+任务 017｜整理感官疾病写作技巧
+来源项目：灵感；分类：感官与心理；用户提问：2 条；完整聊天消息：4 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-017.html
+
+[task-017-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-017.html#task-017-q01
+关系：任务首问；任务首问 task-017-q01
+数量原文：各不少于50条
+原文 SHA256：0c62c297897dede5d4d26bac05cfd762d1f391d8c1adf6daa9a1d27885a8251b
+【原文开始：task-017-q01；字符数=70】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理视觉、听觉、触觉的典型疾病（可以与精神疾病、神经疾病相关）与创作技巧、要点，各不少于50条
+【原文结束：task-017-q01】
+
+[task-017-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-017.html#task-017-q02
+关系：主题或内容扩展；前一实质提问 task-017-q01；任务首问 task-017-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：9c3e38646d5f979967a8040a8b8818aa3648467ad28a2f552b390421aa8050e4
+【原文开始：task-017-q02；字符数=13】
+嗅觉、味觉的也按同要求整理
+【原文结束：task-017-q02】
+
+任务 018｜整理罕见疾病100条
+来源项目：灵感；分类：感官与心理；用户提问：2 条；完整聊天消息：4 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-018.html
+
+[task-018-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-018.html#task-018-q01
+关系：任务首问；任务首问 task-018-q01
+数量原文：不少于100条
+原文 SHA256：0e83257635519091de4c26eda8f699b3b597cdd642acada52e5c1ecff4870b2f
+【原文开始：task-018-q01；字符数=50】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理罕见的心理疾病、精神疾病、神经疾病，不少于100条
+【原文结束：task-018-q01】
+
+[task-018-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-018.html#task-018-q02
+关系：主题或内容扩展；前一实质提问 task-018-q01；任务首问 task-018-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：68b15b3b19003742fca93893b76bba62e13944662ed6325f44492ddc30f7ae8b
+【原文开始：task-018-q02；字符数=9】
+经典的也整理一下吧
+【原文结束：task-018-q02】
+
+任务 019｜整理经典素材
+来源项目：灵感；分类：历史与文化素材；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-019.html
+
+[task-019-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-019.html#task-019-q01
+关系：任务首问；任务首问 task-019-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：d957d074bd03c320a38f8889d6d1eb8bc7a0d333191c5fdcd8a918d54cacb3f8
+【原文开始：task-019-q01；字符数=46】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理诗句、名著、歌词、剧等中经典的句子或者段落
+【原文结束：task-019-q01】
+
+任务 020｜分支 · 整理延申建议
+来源项目：灵感；分类：个人灵感笔记；用户提问：2 条；完整聊天消息：4 条；聊天内文档引用：4 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-020.html
+
+[task-020-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-020.html#task-020-q01
+关系：任务首问；任务首问 task-020-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：d34b39a18a6d5083ded72df734e9fdbbcae6bc5c3e3af8ebc2246e098fa42723
+【原文开始：task-020-q01；字符数=50】
+这是我的网文灵感笔记，请帮助我整理并延申（需要保留原文，在原文后加注释并延申），并给我记笔记上的建议
+【原文结束：task-020-q01】
+
+[task-020-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-020.html#task-020-q02
+关系：交付形式或说明补充；前一实质提问 task-020-q01；任务首问 task-020-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：a78db230856da72ba7320e7fc904e70a5321ebd0ad727921fb20dbb0a7ee5690
+【原文开始：task-020-q02；字符数=29】
+顺便按照你的分类把我的笔记整成一个可供后续使用的excel
+【原文结束：task-020-q02】
+
+任务 021｜整理刻奇相关名词
+来源项目：灵感；分类：历史与文化素材；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-021.html
+
+[task-021-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-021.html#task-021-q01
+关系：任务首问；任务首问 task-021-q01
+数量原文：不少于50条
+原文 SHA256：682736fa75f4bc542ad09699d30ec18645373281e2479c84e98d782415c99e4f
+【原文开始：task-021-q01；字符数=49】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理刻奇这一类（包含刻奇）的名词及解释，不少于50条
+【原文结束：task-021-q01】
+
+任务 022｜犯罪者被害者创作整理
+来源项目：灵感；分类：叙事与结构；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-022.html
+
+[task-022-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-022.html#task-022-q01
+关系：任务首问；任务首问 task-022-q01
+数量原文：各不少于60条
+原文 SHA256：b16b7a8ce47875dbe8719fec6a5818c867c241e06e4b0a51761e43612d1d8670
+【原文开始：task-022-q01；字符数=80】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理犯罪者与被害者的典型形象、案例（可以引入比较新颖的情况，也包括小说、影视作品）与创作技巧、要点，各不少于60条
+【原文结束：task-022-q01】
+
+任务 023｜笔记整理延申建议
+来源项目：灵感；分类：个人灵感笔记；用户提问：4 条；完整聊天消息：8 条；聊天内文档引用：10 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-023.html
+
+[task-023-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-023.html#task-023-q01
+关系：任务首问；任务首问 task-023-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：d34b39a18a6d5083ded72df734e9fdbbcae6bc5c3e3af8ebc2246e098fa42723
+【原文开始：task-023-q01；字符数=50】
+这是我的网文灵感笔记，请帮助我整理并延申（需要保留原文，在原文后加注释并延申），并给我记笔记上的建议
+【原文结束：task-023-q01】
+
+[task-023-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-023.html#task-023-q02
+关系：主题或内容扩展；前一实质提问 task-023-q01；任务首问 task-023-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：92e3326e044dcf60818f83955269eb39fa66ee7c20f0176fd0fd6187f52104f6
+【原文开始：task-023-q02；字符数=48】
+补充一点：伏笔也可以是比较关键的证物或者经典桥段的代表物品（比如囚徒里的模糊窗玻璃），也整合进去
+【原文结束：task-023-q02】
+
+[task-023-q03] 原任务第 3 次提问（原消息第 5 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-023.html#task-023-q03
+关系：交付形式或说明补充；前一实质提问 task-023-q02；任务首问 task-023-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：5e9d17850ff2305d15f11bde58489a8761d55f7e043a8c13c1409717d82823b0
+【原文开始：task-023-q03；字符数=8】
+也整合进这个表格
+【原文结束：task-023-q03】
+
+[task-023-q04] 原任务第 4 次提问（原消息第 7 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-023.html#task-023-q04
+关系：主题或内容扩展；前一实质提问 task-023-q02；任务首问 task-023-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：e829a625fa138715ac57e6e3235b7c19abdf3d04ed6d548ba4ab6344b741adb6
+【原文开始：task-023-q04；字符数=129】
+顺便也整理一下一个新的：“案中案中案：一个小案件看似不起眼，可能是主角在开头解决的一个比较轻松的案子，但是它实际上与一个大案件有关，甚至是关键；这种嵌套的结构可以类似套娃，一个大案-两三个中等案件-一两个楔子案件”，表格与文档都要，并且可以适当帮助我延申完善
+【原文结束：task-023-q04】
+
+任务 024｜阿尔法男性创作要点
+来源项目：灵感；分类：人物与关系；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-024.html
+
+[task-024-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-024.html#task-024-q01
+关系：任务首问；任务首问 task-024-q01
+数量原文：不少于50条
+原文 SHA256：974044006d2da0b40db224b78e6432971040c366a01b78589249cea0fc58bb08
+【原文开始：task-024-q01；字符数=50】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理阿尔法男性的典型形象与创作技巧、要点，不少于50条
+【原文结束：task-024-q01】
+
+任务 025｜叛逆领袖人物创作要点
+来源项目：灵感；分类：人物与关系；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：1 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-025.html
+
+[task-025-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-025.html#task-025-q01
+关系：任务首问；任务首问 task-025-q01
+数量原文：不少于50条
+原文 SHA256：c5c1b3d223a392753d8d6aad803aab7fa61e23cb89da0f410ef6981a6555c81a
+【原文开始：task-025-q01；字符数=60】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理叛逆、个性鲜明、领袖气质的人物的典型形象与创作技巧、要点，不少于50条
+【原文结束：task-025-q01】
+
+任务 026｜整理音乐流派灵感
+来源项目：灵感；分类：影视与音乐；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-026.html
+
+[task-026-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-026.html#task-026-q01
+关系：任务首问；任务首问 task-026-q01
+数量原文：每种三首；不少于100条
+原文 SHA256：1beed6cb2eb6ba41a6f61b98aa74d368274c5e2d58f3f7c16a9afcd949517dc8
+【原文开始：task-026-q01；字符数=69】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理各类音乐流派（大众小众均可）及其代表性音乐（每种三首，要求经典或高人气），不少于100条
+【原文结束：task-026-q01】
+
+任务 027｜整理浪漫感情桥段
+来源项目：灵感；分类：人物与关系；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-027.html
+
+[task-027-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-027.html#task-027-q01
+关系：任务首问；任务首问 task-027-q01
+数量原文：各不少于50条
+原文 SHA256：e7c44f82ed0ac4eebbac0387693fe9565033da46d79662cf21f93b6fcd1443a9
+【原文开始：task-027-q01；字符数=50】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理浪漫桥段以及感情戏（男女频都可以），各不少于50条
+【原文结束：task-027-q01】
+
+任务 028｜整理作案谜题灵感
+来源项目：灵感；分类：叙事与结构；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-028.html
+
+[task-028-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-028.html#task-028-q01
+关系：任务首问；任务首问 task-028-q01
+数量原文：不于条
+原文 SHA256：f39f7ca717700591d3213e04003055b348be79f493f2a6d95b3fd59904bced99
+【原文开始：task-028-q01；字符数=62】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理巧妙作案手法（不一定是杀人，但也要有杀人）或者巧合与误会造成的谜题，不于条
+【原文结束：task-028-q01】
+
+任务 029｜整理作案谜题灵感
+来源项目：灵感；分类：叙事与结构；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-029.html
+
+[task-029-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-029.html#task-029-q01
+关系：任务首问；任务首问 task-029-q01
+数量原文：不少于50条
+原文 SHA256：1f40e44dd07e14492e511cdabaa84f54575f1b8898d076464e63e9a20ea4e4de
+【原文开始：task-029-q01；字符数=65】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理巧妙作案手法（不一定是杀人，但也要有杀人）或者巧合与误会造成的谜题，不少于50条
+【原文结束：task-029-q01】
+
+任务 030｜整理视听语言技巧
+来源项目：灵感；分类：影视与音乐；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-030.html
+
+[task-030-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-030.html#task-030-q01
+关系：任务首问；任务首问 task-030-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：6ed2116eda20778d26d842e3844a33ee522868a0535886ee4a22c293fb9df8b4
+【原文开始：task-030-q01；字符数=47】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理电影电视剧采用的视听语言技巧手法，辅助我写作
+【原文结束：task-030-q01】
+
+任务 031｜世界观灵感理论合集
+来源项目：灵感；分类：世界观与选题；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-031.html
+
+[task-031-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-031.html#task-031-q01
+关系：任务首问；任务首问 task-031-q01
+数量原文：不少于50条
+原文 SHA256：13b2793c71b8e70fe8625cd82a2ac5eeeed1f1c8fa5d09f82909343ae2bfc5de
+【原文开始：task-031-q01；字符数=66】
+我希望进行网文写作，现在需要灵感，请帮助我查找类似蝴蝶效应这种能够应用于构建世界观或者重要设定的巧妙科学或者社会学理论，不少于50条
+【原文结束：task-031-q01】
+
+任务 032｜整理经典世界观设定
+来源项目：灵感；分类：世界观与选题；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-032.html
+
+[task-032-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-032.html#task-032-q01
+关系：任务首问；任务首问 task-032-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：0d2262be891358dd538381198ae7b666ae2c7858a2f279e9ecdbd3ef305b98a6
+【原文开始：task-032-q01；字符数=51】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理经典的电影与小说的巧妙或有想象力的世界观或者重要设定
+【原文结束：task-032-q01】
+
+任务 033｜网文世界观构建技巧
+来源项目：灵感；分类：世界观与选题；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-033.html
+
+[task-033-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-033.html#task-033-q01
+关系：任务首问；任务首问 task-033-q01
+数量原文：各不少于25条
+原文 SHA256：6b780388024cfec8c9a1d1048c6be27e80635985be70546d917d736be1dff5ad
+【原文开始：task-033-q01；字符数=95】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理构建世界观（科幻、玄幻、奇幻、现代都市、历史、悬疑、恐怖、本格推理、变格推理以及其他你推荐的常见题材）的技巧与手段辅助我写作，各不少于25条
+【原文结束：task-033-q01】
+
+任务 034｜整理网文伏笔技巧
+来源项目：灵感；分类：叙事与结构；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-034.html
+
+[task-034-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-034.html#task-034-q01
+关系：任务首问；任务首问 task-034-q01
+数量原文：各不少于50条；不少于十条
+原文 SHA256：7bb6d1d6c8550c051a8902c66252cf37efb38ab2562a5f1e5e7ed61a93cbfe36
+【原文开始：task-034-q01；字符数=91】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理描绘埋伏笔、揭露伏笔的常见桥段与写作技巧辅助我写作，各不少于50条，并告诉我除了伏笔还有什么值得采用的令人耳目一新的手段，不少于十条
+【原文结束：task-034-q01】
+
+任务 035｜整理高智商人物桥段技巧
+来源项目：灵感；分类：人物与关系；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-035.html
+
+[task-035-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-035.html#task-035-q01
+关系：任务首问；任务首问 task-035-q01
+数量原文：各不少于50条
+原文 SHA256：c921dcf30406aa5d85ece7d2fc45e88ac0ab8a12f3ac9d44a6dd2b7dfd693146
+【原文开始：task-035-q01；字符数=62】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理描绘高智商正面或反面人物形象的常见桥段与写作技巧辅助我写作，各不少于50条
+【原文结束：task-035-q01】
+
+任务 036｜整理群像桥段技巧
+来源项目：灵感；分类：人物与关系；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-036.html
+
+[task-036-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-036.html#task-036-q01
+关系：任务首问；任务首问 task-036-q01
+数量原文：各不少于50条
+原文 SHA256：a80aa86d84495421a7f76042327389509199046c338cb068c81a61d4b2863185
+【原文开始：task-036-q01；字符数=51】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理描绘群像常见桥段与写作技巧辅助我写作，各不少于50条
+【原文结束：task-036-q01】
+
+任务 037｜女主塑造技巧整理
+来源项目：灵感；分类：人物与关系；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-037.html
+
+[task-037-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-037.html#task-037-q01
+关系：任务首问；任务首问 task-037-q01
+数量原文：不少于50条
+原文 SHA256：83138262df3665a2d13a44798bf7a1b4ef90a1820f2800e52fbaad5371b55914
+【原文开始：task-037-q01；字符数=69】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理描绘女主形象的常见桥段与写作技巧辅助我写作，不失去主体性但也要在爽文框架下，不少于50条
+【原文结束：task-037-q01】
+
+任务 038｜男二桥段技巧整理
+来源项目：灵感；分类：人物与关系；用户提问：2 条；完整聊天消息：3 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-038.html
+
+[task-038-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-038.html#task-038-q01
+关系：任务首问；任务首问 task-038-q01
+数量原文：各不少于50条
+原文 SHA256：3a6210b1b9d3a2611c00a96428539583b137d26b725a8d049ce62cbfa33e5181
+【原文开始：task-038-q01；字符数=54】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理描绘男二形象的常见桥段与写作技巧辅助我写作，各不少于50条
+【原文结束：task-038-q01】
+
+[task-038-q02] 原任务第 2 次提问（原消息第 2 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-038.html#task-038-q02
+关系：条件补充；前一实质提问 task-038-q01；任务首问 task-038-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：834b12acc9fef065bb8127ff2af5e03d4fda2e00c6738102763bd898950ef881
+【原文开始：task-038-q02；字符数=5】
+注意是男频
+【原文结束：task-038-q02】
+
+任务 039｜浪子形象写作灵感
+来源项目：灵感；分类：人物与关系；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-039.html
+
+[task-039-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-039.html#task-039-q01
+关系：任务首问；任务首问 task-039-q01
+数量原文：各不少于50条
+原文 SHA256：bc45d255004cd4df7b96808a5523630563bf0687fa35644296d5759cf763af9f
+【原文开始：task-039-q01；字符数=59】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理描绘浪子或潇洒人物形象的常见桥段与写作技巧辅助我写作，各不少于50条
+【原文结束：task-039-q01】
+
+任务 040｜整理毒舌幽默桥段
+来源项目：灵感；分类：人物与关系；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-040.html
+
+[task-040-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-040.html#task-040-q01
+关系：任务首问；任务首问 task-040-q01
+数量原文：各不少于50条
+原文 SHA256：087f70ba60fa786976c7cb85ef988de6b5912f114edf0263229bd8df84effb9f
+【原文开始：task-040-q01；字符数=52】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理描绘人物毒舌、幽默的常见桥段辅助我写作，各不少于50条
+【原文结束：task-040-q01】
+
+任务 041｜整理人物口才桥段
+来源项目：灵感；分类：人物与关系；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-041.html
+
+[task-041-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-041.html#task-041-q01
+关系：任务首问；任务首问 task-041-q01
+数量原文：各不少于50条
+原文 SHA256：a78356e7ede2f78d65b6facf9468325117c76cf7c16a5283340f1649bb503dec
+【原文开始：task-041-q01；字符数=54】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理描绘人物口才好、情商高的常见桥段辅助我写作，各不少于50条
+【原文结束：task-041-q01】
+
+任务 042｜整理人物口才桥段
+来源项目：灵感；分类：人物与关系；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-042.html
+
+[task-042-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-042.html#task-042-q01
+关系：任务首问；任务首问 task-042-q01
+数量原文：各不少于50条
+原文 SHA256：a78356e7ede2f78d65b6facf9468325117c76cf7c16a5283340f1649bb503dec
+【原文开始：task-042-q01；字符数=54】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理描绘人物口才好、情商高的常见桥段辅助我写作，各不少于50条
+【原文结束：task-042-q01】
+
+任务 043｜整理毒舌幽默桥段
+来源项目：灵感；分类：人物与关系；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-043.html
+
+[task-043-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-043.html#task-043-q01
+关系：任务首问；任务首问 task-043-q01
+数量原文：各不少于50条
+原文 SHA256：087f70ba60fa786976c7cb85ef988de6b5912f114edf0263229bd8df84effb9f
+【原文开始：task-043-q01；字符数=52】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理描绘人物毒舌、幽默的常见桥段辅助我写作，各不少于50条
+【原文结束：task-043-q01】
+
+任务 044｜整理悬疑写作技巧桥段
+来源项目：灵感；分类：叙事与结构；用户提问：2 条；完整聊天消息：3 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-044.html
+
+[task-044-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-044.html#task-044-q01
+关系：任务首问；任务首问 task-044-q01
+数量原文：各不少于50条
+原文 SHA256：5e856e1e323c165381122e6bb5a18d2578e86a77bea9bc5a3cef35c8f94646be
+【原文开始：task-044-q01；字符数=52】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理悬疑小说的写作技巧与常见桥段辅助我写作，各不少于50条
+【原文结束：task-044-q01】
+
+[task-044-q02] 原任务第 2 次提问（原消息第 2 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-044.html#task-044-q02
+关系：条件补充；前一实质提问 task-044-q01；任务首问 task-044-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：b8e96a3a5389cdb4dfec7f8c78121b4f1272ad567e6f416b5cb4610a9993769f
+【原文开始：task-044-q02；字符数=9】
+越经典或者巧妙越好
+【原文结束：task-044-q02】
+
+任务 045｜悬疑写作技巧桥段整理
+来源项目：灵感；分类：叙事与结构；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-045.html
+
+[task-045-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-045.html#task-045-q01
+关系：任务首问；任务首问 task-045-q01
+数量原文：各不少于50条
+原文 SHA256：c27ab7a181ea08ea16449ebdd2a349a0171f6b89dc4ed7fdc7ed072c85dce5b3
+【原文开始：task-045-q01；字符数=62】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理悬疑小说的写作技巧与常见桥段辅助我写作，各不少于50条，越经典或者巧妙越好
+【原文结束：task-045-q01】
+
+任务 046｜整理推理写作技巧与桥段
+来源项目：灵感；分类：叙事与结构；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-046.html
+
+[task-046-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-046.html#task-046-q01
+关系：任务首问；任务首问 task-046-q01
+数量原文：各不少于50条
+原文 SHA256：28b18bd9e35eff63a9fe839e4f31d05aaac52416fafcf71960752f68eb044ff8
+【原文开始：task-046-q01；字符数=62】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理推理小说的写作技巧与常见桥段辅助我写作，各不少于50条，越经典或者巧妙越好
+【原文结束：task-046-q01】
+
+任务 047｜悬疑写作灵感整理
+来源项目：灵感；分类：叙事与结构；用户提问：2 条；完整聊天消息：3 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-047.html
+
+[task-047-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-047.html#task-047-q01
+关系：任务首问；任务首问 task-047-q01
+数量原文：各不少于20条
+原文 SHA256：941ecd427daf8857322ae1439be4d0eb855e20f7626e0b939760a5d0b13adc8b
+【原文开始：task-047-q01；字符数=52】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理悬疑电影的拍摄手法与常见桥段辅助我写作，各不少于20条
+【原文结束：task-047-q01】
+
+[task-047-q02] 原任务第 2 次提问（原消息第 2 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-047.html#task-047-q02
+关系：条件补充；前一实质提问 task-047-q01；任务首问 task-047-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：b8e96a3a5389cdb4dfec7f8c78121b4f1272ad567e6f416b5cb4610a9993769f
+【原文开始：task-047-q02；字符数=9】
+越经典或者巧妙越好
+【原文结束：task-047-q02】
+
+任务 048｜奇幻网文写作指南
+来源项目：灵感；分类：叙事与结构；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-048.html
+
+[task-048-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-048.html#task-048-q01
+关系：任务首问；任务首问 task-048-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：501ee1f791fbcd06e9157e22f7a8425857f42c55bbfaeaf3bbfb6b0a31f71154
+【原文开始：task-048-q01；字符数=8】
+如何写好奇幻网文
+【原文结束：task-048-q01】
+
+任务 049｜写好历史网文
+来源项目：灵感；分类：叙事与结构；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-049.html
+
+[task-049-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-049.html#task-049-q01
+关系：任务首问；任务首问 task-049-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：8dcb8740a908374f998bf0c7695266a3dcc5a83e5ca9bd46e32e9e794913a766
+【原文开始：task-049-q01；字符数=9】
+如何写好历史网文？
+【原文结束：task-049-q01】
+
+任务 050｜整理电影理论写作灵感
+来源项目：灵感；分类：影视与音乐；用户提问：2 条；完整聊天消息：4 条；聊天内文档引用：2 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-050.html
+
+[task-050-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-050.html#task-050-q01
+关系：任务首问；任务首问 task-050-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：3db22d75cebab018b91db00903883c0cf8b75a4bd250db3bf9405570582ade38
+【原文开始：task-050-q01；字符数=36】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理电影艺术理论辅助我写作
+【原文结束：task-050-q01】
+
+[task-050-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-050.html#task-050-q02
+关系：仅请求增加内容；前一实质提问 task-050-q01；任务首问 task-050-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：93214b672cc4e488327238475dd72aa0dc5c8eebca50810eddae304319729992
+【原文开始：task-050-q02；字符数=7】
+我希望再多一些
+【原文结束：task-050-q02】
+
+任务 051｜写好玄幻网文
+来源项目：灵感；分类：叙事与结构；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-051.html
+
+[task-051-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-051.html#task-051-q01
+关系：任务首问；任务首问 task-051-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：09db8c0c4e276d287c1877b390aaef921d12befbdd29a0ec80540f67f3678e47
+【原文开始：task-051-q01；字符数=8】
+如何写好玄幻网文
+【原文结束：task-051-q01】
+
+任务 052｜写好男频网文指南
+来源项目：灵感；分类：叙事与结构；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-052.html
+
+[task-052-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-052.html#task-052-q01
+关系：任务首问；任务首问 task-052-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：7b8c0e02a3eb26ab9d7b4827761e8c68947fb3ae36b0d817b0eac846a4d6c7e1
+【原文开始：task-052-q01；字符数=9】
+如何写好男频网文？
+【原文结束：task-052-q01】
+
+任务 053｜网文写作提示词
+来源项目：灵感；分类：AI与写作工具；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-053.html
+
+[task-053-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-053.html#task-053-q01
+关系：任务首问；任务首问 task-053-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：605f414228db40409aa368f2587c88f8c6399d1e0ccbcb88bdbe083e44fff9c6
+【原文开始：task-053-q01；字符数=40】
+我希望使用AI进行网文写作，请问应该如何调教AI使其没有AI味？有提示词推荐吗？
+【原文结束：task-053-q01】
+
+任务 054｜AI网文写作提示词
+来源项目：灵感；分类：AI与写作工具；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-054.html
+
+[task-054-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-054.html#task-054-q01
+关系：任务首问；任务首问 task-054-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：b2cb39b10c5abd4efbdbb524502a8d1ddc8e9f113aa6c53872c29e7c3f03bc13
+【原文开始：task-054-q01；字符数=35】
+我希望使用AI进行辅助网文写作，请问应该如何调教AI？有提示词推荐吗？
+【原文结束：task-054-q01】
+
+任务 055｜网文写作技巧整理
+来源项目：灵感；分类：叙事与结构；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：1 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-055.html
+
+[task-055-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-055.html#task-055-q01
+关系：任务首问；任务首问 task-055-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：47a188fd56cd1fedfa67c506d179f84259f8fc3e4a275038e049034a6b210f4a
+【原文开始：task-055-q01；字符数=39】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理小说写作技巧与理论辅助我写作
+【原文结束：task-055-q01】
+
+任务 056｜整理网文爽点技巧
+来源项目：灵感；分类：叙事与结构；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-056.html
+
+[task-056-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-056.html#task-056-q01
+关系：任务首问；任务首问 task-056-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：7c4b052e33cbb60aa97fcb58ae8adf02c2cb880ccb0e024b98135d36b20e4435
+【原文开始：task-056-q01；字符数=34】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理爽点与节奏把控技巧
+【原文结束：task-056-q01】
+
+任务 057｜整理小说写作技巧
+来源项目：灵感；分类：叙事与结构；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-057.html
+
+[task-057-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-057.html#task-057-q01
+关系：任务首问；任务首问 task-057-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：a4d85000ed2c26761dfd779bed3c6c3665eeae9624fec1dde1480a67ba087382
+【原文开始：task-057-q01；字符数=41】
+我希望进行长篇小说写作，现在需要灵感，请帮助我查找整理小说写作技巧与理论辅助我写作
+【原文结束：task-057-q01】
+
+任务 058｜整理罕见疾病灵感
+来源项目：灵感；分类：感官与心理；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-058.html
+
+[task-058-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-058.html#task-058-q01
+关系：任务首问；任务首问 task-058-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：55d19fb99c08d62e1b0a3297f6ce9dcff2aad30471316020888bad0894962c61
+【原文开始：task-058-q01；字符数=37】
+我希望进行网文写作，现在需要灵感，请帮助我查找整理罕见的心理疾病或生理疾病
+【原文结束：task-058-q01】
+
+任务 059｜空心世界观
+来源项目：补充聊天；分类：空心世界原创设定；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：1 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-059.html
+
+[task-059-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-059.html#task-059-q01
+关系：任务首问；任务首问 task-059-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：1ebdc78704f775a6eea6522976e63628e4df3752ce186f0ab5a77c13c7223c02
+【原文开始：task-059-q01；字符数=195】
+我想进行网文创作，设定为近赛博朋克世界观，可星际旅行，社会生产力大发达，娱乐丰富但同质化，于是空心病或者其他心理疾病侵袭人类，而神经导致的心理疾病能够对抗空心病或者其他心理疾病，希望营造末世公路的感觉（看似发达，实则很多人绝望），主角乐观，存在主义（也可以是疾病带来的乐观作为反转），主角与神经导致的疾病的人能够治疗空心病or其他心理疾病，请帮助我丰富这个世界观，完善这个架构并给出参考大纲
+【原文结束：task-059-q01】
+
+任务 060｜空心世界观2
+来源项目：补充聊天；分类：空心世界原创设定；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-060.html
+
+[task-060-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-060.html#task-060-q01
+关系：任务首问；任务首问 task-060-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：1ebdc78704f775a6eea6522976e63628e4df3752ce186f0ab5a77c13c7223c02
+【原文开始：task-060-q01；字符数=195】
+我想进行网文创作，设定为近赛博朋克世界观，可星际旅行，社会生产力大发达，娱乐丰富但同质化，于是空心病或者其他心理疾病侵袭人类，而神经导致的心理疾病能够对抗空心病或者其他心理疾病，希望营造末世公路的感觉（看似发达，实则很多人绝望），主角乐观，存在主义（也可以是疾病带来的乐观作为反转），主角与神经导致的疾病的人能够治疗空心病or其他心理疾病，请帮助我丰富这个世界观，完善这个架构并给出参考大纲
+【原文结束：task-060-q01】
+
+任务 061｜写作建议1
+来源项目：补充聊天；分类：写作方案与建议；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-061.html
+
+[task-061-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-061.html#task-061-q01
+关系：任务首问；任务首问 task-061-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：4d776f9b3543146e70e14171c97b06d760fc21e1ec0407ecfc7eaf53cbb0dcf0
+【原文开始：task-061-q01；字符数=80】
+我希望进行男频网文写作，请参考成功案例（诡秘之主、斗破苍穹、秦吏等），给我提出写作建议（包括但不限于节奏把控、情节构筑、人物设定、场景切换、情感渲染、爽点等等）
+【原文结束：task-061-q01】
+
+任务 062｜写作建议2
+来源项目：补充聊天；分类：写作方案与建议；用户提问：2 条；完整聊天消息：3 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-062.html
+
+[task-062-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-062.html#task-062-q01
+关系：任务首问；任务首问 task-062-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：4d776f9b3543146e70e14171c97b06d760fc21e1ec0407ecfc7eaf53cbb0dcf0
+【原文开始：task-062-q01；字符数=80】
+我希望进行男频网文写作，请参考成功案例（诡秘之主、斗破苍穹、秦吏等），给我提出写作建议（包括但不限于节奏把控、情节构筑、人物设定、场景切换、情感渲染、爽点等等）
+【原文结束：task-062-q01】
+
+[task-062-q02] 原任务第 2 次提问（原消息第 2 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-062.html#task-062-q02
+关系：仅继续；前一实质提问 task-062-q01；任务首问 task-062-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：7c9691192f1b73408bbe4c0cb6d00db94375ca9d8fce0a0d5985e7a5178f083f
+【原文开始：task-062-q02；字符数=2】
+继续
+【原文结束：task-062-q02】
+
+任务 063｜洪荒-合并各地神话1
+来源项目：神话类；分类：神话与传说素材；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：1 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-063.html
+
+[task-063-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-063.html#task-063-q01
+关系：任务首问；任务首问 task-063-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：324c8e5d8d9b965f5cb9726cdb2ebf64afa4c248f8222b839f102b7f8eb7d225
+【原文开始：task-063-q01；字符数=113】
+我希望进行男频网文写作，目前想写的是洪荒相关，我希望洪荒里不只有中国的神佛等，还有其他文化的（希腊印度罗马日本凯尔特美洲等等），请帮助我梳理各地神话传说，如果某神明在不同文化中出现或者流变，请注明（不允许查看本账号的其他工作）
+【原文结束：task-063-q01】
+
+任务 064｜洪荒-合并各地神话2
+来源项目：神话类；分类：神话与传说素材；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：1 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-064.html
+
+[task-064-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-064.html#task-064-q01
+关系：任务首问；任务首问 task-064-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：11761237aa86437bd782f744a275f4d0f4f08097f44e882161d1a07988bcfbf9
+【原文开始：task-064-q01；字符数=98】
+我希望进行男频网文写作，目前想写的是洪荒相关，我希望洪荒里不只有中国的神佛等，还有其他文化的（希腊印度罗马日本凯尔特美洲等等），请帮助我梳理各地神话传说，如果某神明在不同文化中出现或者流变，请注明
+【原文结束：task-064-q01】
+
+任务 065｜各地神话整理3
+来源项目：神话类；分类：神话与传说素材；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：1 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-065.html
+
+[task-065-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-065.html#task-065-q01
+关系：任务首问；任务首问 task-065-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：b506eb4aee817ecc03b7d69108ad3f6503c95c0578130968f9a18067e5657f9b
+【原文开始：task-065-q01；字符数=145】
+我打算在起点中文网进行男频网文写作，修仙玄幻赛道过于拥挤，我希望能够写一些有新意的东西。目前超能力（仙术啊道法啊或者诡秘之主这样的世界观）的内容太过陈旧了（本质还是升级打怪），我希望能从神话里得到灵感，请为我整理世界各地古老文化里有关的内容为我提供灵感，或者你有什么其他的写作建议也可以提出
+【原文结束：task-065-q01】
+
+任务 066｜各地神话整理2
+来源项目：神话类；分类：神话与传说素材；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：1 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-066.html
+
+[task-066-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-066.html#task-066-q01
+关系：任务首问；任务首问 task-066-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：c809fca4f4e93d9031d005b97057698266adacb1b8dcb8bd591a69ac38b675b9
+【原文开始：task-066-q01；字符数=126】
+我打算在起点中文网进行男频网文写作，修仙玄幻赛道过于拥挤，我希望能够写一些有新意的东西。目前超能力（仙术啊道法啊）的内容太过陈旧了，我希望能从神话或传说里得到灵感，请为我整理世界各地古老文化里有关的内容为我提供灵感，或者你有什么其他的写作建议也可以提出
+【原文结束：task-066-q01】
+
+任务 067｜各地神话整理1
+来源项目：神话类；分类：神话与传说素材；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-067.html
+
+[task-067-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-067.html#task-067-q01
+关系：任务首问；任务首问 task-067-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：c7392106cccc82b13722acd479d8b12277b4a1960d259454a68605bb38a258e8
+【原文开始：task-067-q01；字符数=123】
+我打算在起点中文网进行男频网文写作，修仙玄幻赛道过于拥挤，我希望能够写一些有新意的东西。目前超能力（仙术啊道法啊）的内容太过陈旧了，我希望能从神话里得到灵感，请为我整理世界各地古老文化里有关的内容为我提供灵感，或者你有什么其他的写作建议也可以提出
+【原文结束：task-067-q01】
+
+任务 068｜商3
+来源项目：历史类；分类：历史与文化素材；用户提问：2 条；完整聊天消息：4 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-068.html
+
+[task-068-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-068.html#task-068-q01
+关系：任务首问；任务首问 task-068-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：05f21acc7e7bd531bfa290caa8921675ea3c5dee197b92c278b9e9aaaead736b
+【原文开始：task-068-q01；字符数=339】
+我想在起点中文网进行网文写作，男频，题材为架空历史，初步的想法是男主穿越到一个古代世界，这个世界各个文明（中华文化圈、中亚草原文化、中东文明、欧洲文明、非洲文明与美洲文明）之间的距离比现实中更小，相当于各个文明正好相邻刚刚开始交流，这个时间节点前发生的事情与历史无异，更容易发生交流与碰撞，我希望将架空历史的参考时间放在商朝，当时的交通与技术或许足够支持各个文明刚好在那个节点产生交流。这个时间节点选择有问题吗？请为我提出建议，并帮助我构建这样一个世界观，同时帮助我准备资料（生物、地理、科学、技术、历史、民族、文化、宗教、工业农业商业、政治等等你能想到的方面），并为我找出一些有趣的可以在行文里给出的科普小知识（例如古代的电池等等），不过不允许查看本账号的其他工作、聊天或项目
+【原文结束：task-068-q01】
+
+[task-068-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-068.html#task-068-q02
+关系：主题或内容扩展；前一实质提问 task-068-q01；任务首问 task-068-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：17bdb9f022489833a8a228d6799055704df8918d3fde4b8df0cc3328cc1f2766
+【原文开始：task-068-q02；字符数=18】
+我希望了解各文明的政治生态与民众生活
+【原文结束：task-068-q02】
+
+任务 069｜周1
+来源项目：历史类；分类：历史与文化素材；用户提问：3 条；完整聊天消息：5 条；聊天内文档引用：2 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-069.html
+
+[task-069-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-069.html#task-069-q01
+关系：任务首问；任务首问 task-069-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：3bba236a2431be3b7c2e47a852a49a4b7293605e240f6664eaa71e1008e010e6
+【原文开始：task-069-q01；字符数=339】
+我想在起点中文网进行网文写作，男频，题材为架空历史，初步的想法是男主穿越到一个古代世界，这个世界各个文明（中华文化圈、中亚草原文化、中东文明、欧洲文明、非洲文明与美洲文明）之间的距离比现实中更小，相当于各个文明正好相邻刚刚开始交流，这个时间节点前发生的事情与历史无异，更容易发生交流与碰撞，我希望将架空历史的参考时间放在周朝，当时的交通与技术或许足够支持各个文明刚好在那个节点产生交流。这个时间节点选择有问题吗？请为我提出建议，并帮助我构建这样一个世界观，同时帮助我准备资料（生物、地理、科学、技术、历史、民族、文化、宗教、工业农业商业、政治等等你能想到的方面），并为我找出一些有趣的可以在行文里给出的科普小知识（例如古代的电池等等），不过不允许查看本账号的其他工作、聊天或项目
+【原文结束：task-069-q01】
+
+[task-069-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-069.html#task-069-q02
+关系：后续实质提问；前一实质提问 task-069-q01；任务首问 task-069-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：495d9162453abc1b671debd94aa273f7ac13b0c9cb2438edad122287680b86bc
+【原文开始：task-069-q02；字符数=24】
+请帮助我搜集当时与之前的历史人物、事迹与历史事件
+【原文结束：task-069-q02】
+
+[task-069-q03] 原任务第 3 次提问（原消息第 4 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-069.html#task-069-q03
+关系：仅继续；前一实质提问 task-069-q02；任务首问 task-069-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：7c9691192f1b73408bbe4c0cb6d00db94375ca9d8fce0a0d5985e7a5178f083f
+【原文开始：task-069-q03；字符数=2】
+继续
+【原文结束：task-069-q03】
+
+任务 070｜封建经典桥段3
+来源项目：历史类；分类：历史与文化素材；用户提问：2 条；完整聊天消息：3 条；聊天内文档引用：1 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-070.html
+
+[task-070-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-070.html#task-070-q01
+关系：任务首问；任务首问 task-070-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：35e323843908ea3d5924844e0cc9dcf3ea16a8abfb879da1074ed107665ce141
+【原文开始：task-070-q01；字符数=80】
+我希望进行男频网文写作，主题是封建时代（中外都有），我希望了解一些不同文化背景的封建时代经典的政治桥段、伦理桥段、军事桥段与生产生活桥段，请广泛搜索并帮助我整理
+【原文结束：task-070-q01】
+
+[task-070-q02] 原任务第 2 次提问（原消息第 2 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-070.html#task-070-q02
+关系：仅继续；前一实质提问 task-070-q01；任务首问 task-070-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：7c9691192f1b73408bbe4c0cb6d00db94375ca9d8fce0a0d5985e7a5178f083f
+【原文开始：task-070-q02；字符数=2】
+继续
+【原文结束：task-070-q02】
+
+任务 071｜封建经典桥段2
+来源项目：历史类；分类：历史与文化素材；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：1 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-071.html
+
+[task-071-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-071.html#task-071-q01
+关系：任务首问；任务首问 task-071-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：35e323843908ea3d5924844e0cc9dcf3ea16a8abfb879da1074ed107665ce141
+【原文开始：task-071-q01；字符数=80】
+我希望进行男频网文写作，主题是封建时代（中外都有），我希望了解一些不同文化背景的封建时代经典的政治桥段、伦理桥段、军事桥段与生产生活桥段，请广泛搜索并帮助我整理
+【原文结束：task-071-q01】
+
+任务 072｜封建经典桥段1
+来源项目：历史类；分类：历史与文化素材；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：1 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-072.html
+
+[task-072-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-072.html#task-072-q01
+关系：任务首问；任务首问 task-072-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：35e323843908ea3d5924844e0cc9dcf3ea16a8abfb879da1074ed107665ce141
+【原文开始：task-072-q01；字符数=80】
+我希望进行男频网文写作，主题是封建时代（中外都有），我希望了解一些不同文化背景的封建时代经典的政治桥段、伦理桥段、军事桥段与生产生活桥段，请广泛搜索并帮助我整理
+【原文结束：task-072-q01】
+
+任务 073｜封建英雄桥段3
+来源项目：历史类；分类：历史与文化素材；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-073.html
+
+[task-073-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-073.html#task-073-q01
+关系：任务首问；任务首问 task-073-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：c4ae6db227cff29f95d46e56b93a4f2e7ac4c16a34166b5c1afd85f4b55a685c
+【原文开始：task-073-q01；字符数=51】
+我希望进行男频网文写作，主题是封建时代（中外都有），我希望了解一些不同文化背景的封建时代经典的英雄桥段
+【原文结束：task-073-q01】
+
+任务 074｜封建英雄桥段1
+来源项目：历史类；分类：历史与文化素材；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-074.html
+
+[task-074-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-074.html#task-074-q01
+关系：任务首问；任务首问 task-074-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：c4ae6db227cff29f95d46e56b93a4f2e7ac4c16a34166b5c1afd85f4b55a685c
+【原文开始：task-074-q01；字符数=51】
+我希望进行男频网文写作，主题是封建时代（中外都有），我希望了解一些不同文化背景的封建时代经典的英雄桥段
+【原文结束：task-074-q01】
+
+任务 075｜封建英雄桥段2
+来源项目：历史类；分类：历史与文化素材；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-075.html
+
+[task-075-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-075.html#task-075-q01
+关系：任务首问；任务首问 task-075-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：c4ae6db227cff29f95d46e56b93a4f2e7ac4c16a34166b5c1afd85f4b55a685c
+【原文开始：task-075-q01；字符数=51】
+我希望进行男频网文写作，主题是封建时代（中外都有），我希望了解一些不同文化背景的封建时代经典的英雄桥段
+【原文结束：task-075-q01】
+
+任务 076｜春秋战国1
+来源项目：历史类；分类：历史与文化素材；用户提问：4 条；完整聊天消息：7 条；聊天内文档引用：2 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-076.html
+
+[task-076-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-076.html#task-076-q01
+关系：任务首问；任务首问 task-076-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：954928cfe5306b4480bc820e554f0593611a0beb5019084aef13a23f2ec5392a
+【原文开始：task-076-q01；字符数=356】
+我想在起点中文网进行网文写作，男频，题材为架空历史，初步的想法是男主穿越到一个古代世界，这个世界各个文明（中华文化圈、中亚草原文化、中东文明、欧洲文明、非洲文明与美洲文明）之间的距离比现实中更小，相当于各个文明正好相邻刚刚开始交流，这个时间节点前发生的事情与历史无异，更容易发生交流与碰撞，我希望将架空历史的参考时间放在春秋或战国，比较热门也有丰富的考古资料，当时的交通与技术或许足够支持各个文明刚好在那个节点产生交流。这个时间节点选择有问题吗？请为我提出建议，并帮助我构建这样一个世界观，同时帮助我准备资料（生物、地理、科学、技术、历史、民族、文化、宗教、工业农业商业、政治等等你能想到的方面），并为我找出一些有趣的可以在行文里给出的科普小知识（例如古代的电池等等），不过不允许查看本账号的其他工作、聊天或项目
+【原文结束：task-076-q01】
+
+[task-076-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-076.html#task-076-q02
+关系：后续实质提问；前一实质提问 task-076-q01；任务首问 task-076-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：a40f8ea9f131a21e1db75ddb60e66661c355d0f111726123f4b4a8f6585c3cee
+【原文开始：task-076-q02；字符数=16】
+请提出一些写作注意点与建议，谢谢
+【原文结束：task-076-q02】
+
+[task-076-q03] 原任务第 3 次提问（原消息第 5 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-076.html#task-076-q03
+关系：后续实质提问；前一实质提问 task-076-q02；任务首问 task-076-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：495d9162453abc1b671debd94aa273f7ac13b0c9cb2438edad122287680b86bc
+【原文开始：task-076-q03；字符数=24】
+请帮助我搜集当时与之前的历史人物、事迹与历史事件
+【原文结束：task-076-q03】
+
+[task-076-q04] 原任务第 4 次提问（原消息第 6 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-076.html#task-076-q04
+关系：仅继续；前一实质提问 task-076-q03；任务首问 task-076-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：7c9691192f1b73408bbe4c0cb6d00db94375ca9d8fce0a0d5985e7a5178f083f
+【原文开始：task-076-q04；字符数=2】
+继续
+【原文结束：task-076-q04】
+
+任务 077｜秦汉4
+来源项目：历史类；分类：历史与文化素材；用户提问：4 条；完整聊天消息：7 条；聊天内文档引用：4 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-077.html
+
+[task-077-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-077.html#task-077-q01
+关系：任务首问；任务首问 task-077-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：0d6a671d3833066b671e132a7515be7e1a047debb6a39190691cb62e4ea99207
+【原文开始：task-077-q01；字符数=364】
+我想在起点中文网进行网文写作，男频，题材为架空历史，初步的想法是男主穿越到一个古代世界，这个世界各个文明（中华文化圈、中亚草原文化、中东文明、欧洲文明、非洲文明与美洲文明）之间的距离比现实中更小，相当于各个文明正好相邻刚刚开始交流，这个时间节点前发生的事情与历史无异，更容易发生交流与碰撞，我希望将架空历史的参考时间放在秦或汉，理由是秦汉对应罗马，比较热门也有丰富的考古资料，当时的交通与技术或许足够支持各个文明刚好在那个节点产生交流。这个时间节点选择有问题吗？请为我提出建议，并帮助我构建这样一个世界观，同时帮助我准备资料（生物、地理、科学、技术、历史、民族、文化、宗教、工业农业商业、政治等等你能想到的方面），并为我找出一些有趣的可以在行文里给出的科普小知识（例如古代的电池等等），不过不允许查看本账号的其他工作、聊天或项目
+【原文结束：task-077-q01】
+
+[task-077-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-077.html#task-077-q02
+关系：后续实质提问；前一实质提问 task-077-q01；任务首问 task-077-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：a40f8ea9f131a21e1db75ddb60e66661c355d0f111726123f4b4a8f6585c3cee
+【原文开始：task-077-q02；字符数=16】
+请提出一些写作注意点与建议，谢谢
+【原文结束：task-077-q02】
+
+[task-077-q03] 原任务第 3 次提问（原消息第 5 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-077.html#task-077-q03
+关系：后续实质提问；前一实质提问 task-077-q02；任务首问 task-077-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：495d9162453abc1b671debd94aa273f7ac13b0c9cb2438edad122287680b86bc
+【原文开始：task-077-q03；字符数=24】
+请帮助我搜集当时与之前的历史人物、事迹与历史事件
+【原文结束：task-077-q03】
+
+[task-077-q04] 原任务第 4 次提问（原消息第 6 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-077.html#task-077-q04
+关系：仅继续；前一实质提问 task-077-q03；任务首问 task-077-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：7c9691192f1b73408bbe4c0cb6d00db94375ca9d8fce0a0d5985e7a5178f083f
+【原文开始：task-077-q04；字符数=2】
+继续
+【原文结束：task-077-q04】
+
+任务 078｜商2
+来源项目：历史类；分类：历史与文化素材；用户提问：3 条；完整聊天消息：5 条；聊天内文档引用：2 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-078.html
+
+[task-078-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-078.html#task-078-q01
+关系：任务首问；任务首问 task-078-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：05f21acc7e7bd531bfa290caa8921675ea3c5dee197b92c278b9e9aaaead736b
+【原文开始：task-078-q01；字符数=339】
+我想在起点中文网进行网文写作，男频，题材为架空历史，初步的想法是男主穿越到一个古代世界，这个世界各个文明（中华文化圈、中亚草原文化、中东文明、欧洲文明、非洲文明与美洲文明）之间的距离比现实中更小，相当于各个文明正好相邻刚刚开始交流，这个时间节点前发生的事情与历史无异，更容易发生交流与碰撞，我希望将架空历史的参考时间放在商朝，当时的交通与技术或许足够支持各个文明刚好在那个节点产生交流。这个时间节点选择有问题吗？请为我提出建议，并帮助我构建这样一个世界观，同时帮助我准备资料（生物、地理、科学、技术、历史、民族、文化、宗教、工业农业商业、政治等等你能想到的方面），并为我找出一些有趣的可以在行文里给出的科普小知识（例如古代的电池等等），不过不允许查看本账号的其他工作、聊天或项目
+【原文结束：task-078-q01】
+
+[task-078-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-078.html#task-078-q02
+关系：后续实质提问；前一实质提问 task-078-q01；任务首问 task-078-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：495d9162453abc1b671debd94aa273f7ac13b0c9cb2438edad122287680b86bc
+【原文开始：task-078-q02；字符数=24】
+请帮助我搜集当时与之前的历史人物、事迹与历史事件
+【原文结束：task-078-q02】
+
+[task-078-q03] 原任务第 3 次提问（原消息第 4 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-078.html#task-078-q03
+关系：仅继续；前一实质提问 task-078-q02；任务首问 task-078-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：7c9691192f1b73408bbe4c0cb6d00db94375ca9d8fce0a0d5985e7a5178f083f
+【原文开始：task-078-q03；字符数=2】
+继续
+【原文结束：task-078-q03】
+
+任务 079｜秦汉3
+来源项目：历史类；分类：历史与文化素材；用户提问：4 条；完整聊天消息：7 条；聊天内文档引用：2 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-079.html
+
+[task-079-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-079.html#task-079-q01
+关系：任务首问；任务首问 task-079-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：0d6a671d3833066b671e132a7515be7e1a047debb6a39190691cb62e4ea99207
+【原文开始：task-079-q01；字符数=364】
+我想在起点中文网进行网文写作，男频，题材为架空历史，初步的想法是男主穿越到一个古代世界，这个世界各个文明（中华文化圈、中亚草原文化、中东文明、欧洲文明、非洲文明与美洲文明）之间的距离比现实中更小，相当于各个文明正好相邻刚刚开始交流，这个时间节点前发生的事情与历史无异，更容易发生交流与碰撞，我希望将架空历史的参考时间放在秦或汉，理由是秦汉对应罗马，比较热门也有丰富的考古资料，当时的交通与技术或许足够支持各个文明刚好在那个节点产生交流。这个时间节点选择有问题吗？请为我提出建议，并帮助我构建这样一个世界观，同时帮助我准备资料（生物、地理、科学、技术、历史、民族、文化、宗教、工业农业商业、政治等等你能想到的方面），并为我找出一些有趣的可以在行文里给出的科普小知识（例如古代的电池等等），不过不允许查看本账号的其他工作、聊天或项目
+【原文结束：task-079-q01】
+
+[task-079-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-079.html#task-079-q02
+关系：后续实质提问；前一实质提问 task-079-q01；任务首问 task-079-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：a40f8ea9f131a21e1db75ddb60e66661c355d0f111726123f4b4a8f6585c3cee
+【原文开始：task-079-q02；字符数=16】
+请提出一些写作注意点与建议，谢谢
+【原文结束：task-079-q02】
+
+[task-079-q03] 原任务第 3 次提问（原消息第 5 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-079.html#task-079-q03
+关系：后续实质提问；前一实质提问 task-079-q02；任务首问 task-079-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：495d9162453abc1b671debd94aa273f7ac13b0c9cb2438edad122287680b86bc
+【原文开始：task-079-q03；字符数=24】
+请帮助我搜集当时与之前的历史人物、事迹与历史事件
+【原文结束：task-079-q03】
+
+[task-079-q04] 原任务第 4 次提问（原消息第 6 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-079.html#task-079-q04
+关系：仅继续；前一实质提问 task-079-q03；任务首问 task-079-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：7c9691192f1b73408bbe4c0cb6d00db94375ca9d8fce0a0d5985e7a5178f083f
+【原文开始：task-079-q04；字符数=2】
+继续
+【原文结束：task-079-q04】
+
+任务 080｜秦汉2
+来源项目：历史类；分类：历史与文化素材；用户提问：4 条；完整聊天消息：7 条；聊天内文档引用：2 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-080.html
+
+[task-080-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-080.html#task-080-q01
+关系：任务首问；任务首问 task-080-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：36d299474641a4f6062a120f4d4df3ae33f827ba42a059062f83a8e1a38aab8a
+【原文开始：task-080-q01；字符数=391】
+我想在起点中文网进行网文写作，男频，题材为架空历史，初步的想法是男主穿越到一个古代世界，这个世界各个文明（中华文化圈、中亚草原文化、中东文明、欧洲文明、非洲文明与美洲文明）之间的距离比现实中更小，相当于各个文明正好相邻刚刚开始交流，这个时间节点前发生的事情与历史无异，更容易发生交流与碰撞，我希望将架空历史的参考时间放在秦或汉，理由是秦汉对应罗马，比较热门也有丰富的考古资料，当时的交通与技术或许足够支持各个文明刚好在那个节点产生交流。这个时间节点选择有问题吗，或许更早的时间节点如春秋战国才能满足中外初次交流要求？请为我提出建议，并帮助我构建这样一个世界观，同时帮助我准备资料（生物、地理、科学、技术、历史、民族、文化、宗教、工业农业商业、政治等等你能想到的方面），并为我找出一些有趣的可以在行文里给出的科普小知识（例如古代的电池等等），不过不允许查看本账号的其他工作、聊天或项目
+【原文结束：task-080-q01】
+
+[task-080-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-080.html#task-080-q02
+关系：后续实质提问；前一实质提问 task-080-q01；任务首问 task-080-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：a40f8ea9f131a21e1db75ddb60e66661c355d0f111726123f4b4a8f6585c3cee
+【原文开始：task-080-q02；字符数=16】
+请提出一些写作注意点与建议，谢谢
+【原文结束：task-080-q02】
+
+[task-080-q03] 原任务第 3 次提问（原消息第 5 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-080.html#task-080-q03
+关系：后续实质提问；前一实质提问 task-080-q02；任务首问 task-080-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：495d9162453abc1b671debd94aa273f7ac13b0c9cb2438edad122287680b86bc
+【原文开始：task-080-q03；字符数=24】
+请帮助我搜集当时与之前的历史人物、事迹与历史事件
+【原文结束：task-080-q03】
+
+[task-080-q04] 原任务第 4 次提问（原消息第 6 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-080.html#task-080-q04
+关系：仅继续；前一实质提问 task-080-q03；任务首问 task-080-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：7c9691192f1b73408bbe4c0cb6d00db94375ca9d8fce0a0d5985e7a5178f083f
+【原文开始：task-080-q04；字符数=2】
+继续
+【原文结束：task-080-q04】
+
+任务 081｜周2
+来源项目：历史类；分类：历史与文化素材；用户提问：3 条；完整聊天消息：5 条；聊天内文档引用：2 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-081.html
+
+[task-081-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-081.html#task-081-q01
+关系：任务首问；任务首问 task-081-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：3bba236a2431be3b7c2e47a852a49a4b7293605e240f6664eaa71e1008e010e6
+【原文开始：task-081-q01；字符数=339】
+我想在起点中文网进行网文写作，男频，题材为架空历史，初步的想法是男主穿越到一个古代世界，这个世界各个文明（中华文化圈、中亚草原文化、中东文明、欧洲文明、非洲文明与美洲文明）之间的距离比现实中更小，相当于各个文明正好相邻刚刚开始交流，这个时间节点前发生的事情与历史无异，更容易发生交流与碰撞，我希望将架空历史的参考时间放在周朝，当时的交通与技术或许足够支持各个文明刚好在那个节点产生交流。这个时间节点选择有问题吗？请为我提出建议，并帮助我构建这样一个世界观，同时帮助我准备资料（生物、地理、科学、技术、历史、民族、文化、宗教、工业农业商业、政治等等你能想到的方面），并为我找出一些有趣的可以在行文里给出的科普小知识（例如古代的电池等等），不过不允许查看本账号的其他工作、聊天或项目
+【原文结束：task-081-q01】
+
+[task-081-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-081.html#task-081-q02
+关系：后续实质提问；前一实质提问 task-081-q01；任务首问 task-081-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：495d9162453abc1b671debd94aa273f7ac13b0c9cb2438edad122287680b86bc
+【原文开始：task-081-q02；字符数=24】
+请帮助我搜集当时与之前的历史人物、事迹与历史事件
+【原文结束：task-081-q02】
+
+[task-081-q03] 原任务第 3 次提问（原消息第 4 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-081.html#task-081-q03
+关系：仅继续；前一实质提问 task-081-q02；任务首问 task-081-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：7c9691192f1b73408bbe4c0cb6d00db94375ca9d8fce0a0d5985e7a5178f083f
+【原文开始：task-081-q03；字符数=2】
+继续
+【原文结束：task-081-q03】
+
+任务 082｜商1
+来源项目：历史类；分类：历史与文化素材；用户提问：3 条；完整聊天消息：5 条；聊天内文档引用：2 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-082.html
+
+[task-082-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-082.html#task-082-q01
+关系：任务首问；任务首问 task-082-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：05f21acc7e7bd531bfa290caa8921675ea3c5dee197b92c278b9e9aaaead736b
+【原文开始：task-082-q01；字符数=339】
+我想在起点中文网进行网文写作，男频，题材为架空历史，初步的想法是男主穿越到一个古代世界，这个世界各个文明（中华文化圈、中亚草原文化、中东文明、欧洲文明、非洲文明与美洲文明）之间的距离比现实中更小，相当于各个文明正好相邻刚刚开始交流，这个时间节点前发生的事情与历史无异，更容易发生交流与碰撞，我希望将架空历史的参考时间放在商朝，当时的交通与技术或许足够支持各个文明刚好在那个节点产生交流。这个时间节点选择有问题吗？请为我提出建议，并帮助我构建这样一个世界观，同时帮助我准备资料（生物、地理、科学、技术、历史、民族、文化、宗教、工业农业商业、政治等等你能想到的方面），并为我找出一些有趣的可以在行文里给出的科普小知识（例如古代的电池等等），不过不允许查看本账号的其他工作、聊天或项目
+【原文结束：task-082-q01】
+
+[task-082-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-082.html#task-082-q02
+关系：后续实质提问；前一实质提问 task-082-q01；任务首问 task-082-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：495d9162453abc1b671debd94aa273f7ac13b0c9cb2438edad122287680b86bc
+【原文开始：task-082-q02；字符数=24】
+请帮助我搜集当时与之前的历史人物、事迹与历史事件
+【原文结束：task-082-q02】
+
+[task-082-q03] 原任务第 3 次提问（原消息第 4 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-082.html#task-082-q03
+关系：仅继续；前一实质提问 task-082-q02；任务首问 task-082-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：7c9691192f1b73408bbe4c0cb6d00db94375ca9d8fce0a0d5985e7a5178f083f
+【原文开始：task-082-q03；字符数=2】
+继续
+【原文结束：task-082-q03】
+
+任务 083｜秦汉1
+来源项目：历史类；分类：历史与文化素材；用户提问：3 条；完整聊天消息：5 条；聊天内文档引用：2 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-083.html
+
+[task-083-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-083.html#task-083-q01
+关系：任务首问；任务首问 task-083-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：0520fcfcf9b79f145baaf119d1efcb1d895e50e0d2cf931e40d3c0d8c04d1e0d
+【原文开始：task-083-q01；字符数=342】
+我想在起点中文网进行网文写作，男频，题材为架空历史，初步的想法是男主穿越到一个古代世界，这个世界各个文明（中华文化圈、中亚草原文化、中东文明、欧洲文明、非洲文明与美洲文明）之间的距离比现实中更小，相当于各个文明正好相邻刚刚开始交流，这个时间节点前发生的事情与历史无异，更容易发生交流与碰撞，我希望将架空历史的参考时间放在秦或汉，理由是秦汉对应罗马，比较热门也有丰富的考古资料，当时的交通与技术或许足够支持各个文明刚好在那个节点产生交流。这个时间节点选择有问题吗？请为我提出建议，并帮助我构建这样一个世界观，同时帮助我准备资料（生物、地理、科学、技术、历史、民族、文化、宗教、工业农业商业、政治等等你能想到的方面），并为我找出一些有趣的可以在行文里给出的科普小知识（例如古代的电池等等）
+【原文结束：task-083-q01】
+
+[task-083-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-083.html#task-083-q02
+关系：后续实质提问；前一实质提问 task-083-q01；任务首问 task-083-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：495d9162453abc1b671debd94aa273f7ac13b0c9cb2438edad122287680b86bc
+【原文开始：task-083-q02；字符数=24】
+请帮助我搜集当时与之前的历史人物、事迹与历史事件
+【原文结束：task-083-q02】
+
+[task-083-q03] 原任务第 3 次提问（原消息第 4 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-083.html#task-083-q03
+关系：仅继续；前一实质提问 task-083-q02；任务首问 task-083-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：7c9691192f1b73408bbe4c0cb6d00db94375ca9d8fce0a0d5985e7a5178f083f
+【原文开始：task-083-q03；字符数=2】
+继续
+【原文结束：task-083-q03】
+
+任务 084｜商4
+来源项目：补充聊天；分类：历史与文化素材；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：0 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-084.html
+
+[task-084-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-084.html#task-084-q01
+关系：任务首问；任务首问 task-084-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：19aeded1723607dd51589fec54534082d3d019fa9608ec60d12fdbc89488d3a1
+【原文开始：task-084-q01；字符数=334】
+我想在起点中文网进行网文写作，男频，题材为架空历史，初步的想法是男主穿越到一个古代世界，这个世界各个文明（中华文化圈、中亚草原文化、中东文明、欧洲文明、非洲文明与美洲文明）之间的距离比现实中更小，相当于各个文明正好相邻刚刚开始交流，这个时间节点前发生的事情与历史无异，更容易发生交流与碰撞，我希望将架空历史的参考时间放在商朝，当时的交通与技术或许足够支持各个文明刚好在那个节点产生交流。这个时间节点选择有问题吗？请为我提出建议，并帮助我构建这样一个世界观，同时帮助我准备资料（特别是民俗方面的内容，类似《金枝》，不过我希望有史料与记载支持，具有可信度），并为我找出一些有趣的可以在行文里给出的科普小知识（例如古代的电池等等），不过不允许查看本账号的其他工作、聊天或项目
+【原文结束：task-084-q01】
+
+任务 085｜博弈写作技巧
+来源项目：灵感；分类：叙事与结构；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：1 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-085.html
+
+[task-085-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-085.html#task-085-q01
+关系：任务首问；任务首问 task-085-q01
+数量原文：不少于100条
+原文 SHA256：cfe87d3f704fd0206fc5c71646b8234095acc9c4e0127cb0a152d9fac4a0d6c6
+【原文开始：task-085-q01；字符数=82】
+我希望进行写作，想要了解如何进行势力博弈的描写与情节构筑，请帮助我整理写作技巧，可以适当附上名著的经典描写或者历史真实案例（中外均可）作为参考与解析。不少于100条
+【原文结束：task-085-q01】
+
+任务 086｜整理台词写作技巧
+来源项目：灵感；分类：人物与关系；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：1 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-086.html
+
+[task-086-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-086.html#task-086-q01
+关系：任务首问；任务首问 task-086-q01
+数量原文：不少于100条
+原文 SHA256：155c51d6f0c3b6048c91fed276e3c1baecc177fca9faae1882b4f3b11a401c3f
+【原文开始：task-086-q01；字符数=146】
+我希望进行写作，想要了解人物的台词应该如何安排从而显得有逻辑有感情，能够让读者信服（不是说台词本身的正确与否，而是是否符合人物人设，以及在演讲时能否调动读者情绪，在煽情时能否1让读者感动或者沉浸等等），请帮助我整理写作技巧，可以适当附上名著（中外均可）的经典描写作为参考与解析。不少于100条
+【原文结束：task-086-q01】
+
+任务 087｜完善蒸汽朋克世界观
+来源项目：灵感；分类：世界观与选题；用户提问：4 条；完整聊天消息：8 条；聊天内文档引用：3 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-087.html
+
+[task-087-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-087.html#task-087-q01
+关系：任务首问；任务首问 task-087-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：b03881f98aefab7cf961f7b12ed9427aa7929eb2313cf1b7f58a77d9db9af160
+【原文开始：task-087-q01；字符数=199】
+我希望进行男频网文写作，初定是整齐朋克的类似背景设定（这一背景可以根据当前科技发展或其他世界观发展进行完善，例如赛博朋克2077，不过我不太希望进入信息时代或者是发展了独属于这一世界观的信息技术，同时在社会、科技、经济、政治、文化上都有符合逻辑的设定，并且我希望像2077那样会有一个城市作为主舞台，这个城市会汇聚各个族裔与各方势力），题材会是悬疑推理，请帮助我完善这一世界观与设定，并给出写作建议
+【原文结束：task-087-q01】
+
+[task-087-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-087.html#task-087-q02
+关系：提供参考并请求大纲；前一实质提问 task-087-q01；任务首问 task-087-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：df8434e80e0fc76cbf63b4be590513a41a0efd353dcba302d6748151b27e6893
+【原文开始：task-087-q02；字符数=4964】
+可以结合参考，并给我一个粗纲与写作建议与提示：将**蒸汽朋克（Steampunk）**的古典机械美学与**《赛博朋克2077》**的社会结构（高科技低生活、巨型企业垄断、义体改造、多元族裔混居）进行嫁接，同时剔除电子芯片与现代互联网，最契合的衍生流派是**“差分朋克（Difference Engine Punk）+ 气动炼金朋克”**。
+
+在这一框架下，人类没有点亮“硅基电子管”科技树，而是将**精密发条、高压流体力学、巴贝奇差分机（机械计算机）与工业炼金术**推向了极致，构建出一套完全基于物理、机械与化学的“模拟信息时代（Analog Information Age）”。
+
+---
+
+### 一、 核心科技树：非电子化的“信息时代”与义体技术
+
+为了让世界观既有《2077》的犯罪与博弈舞台，又不脱离蒸汽时代的机械质感，科技体系围绕三大支柱展开：
+
+#### 1. 机械信息网：差分矩阵与全城气动管网（替代互联网与黑客）
+
+* **巴贝奇差分巨塔（算力中心）：** 城市中没有电子服务器，取而代之的是由数百万个黄铜齿轮、凸轮与杠杆构成的巨型建筑——**“中央差分塔”**。巨型企业通过垄断算力，来计算金融期货、人口普查、铁道调度与犯罪率预测。
+* **穿孔纸带与微雕金属片（数据存储）：** 一切档案、身份信息、银行账户乃至自动机械的控制程序，都以微米级精度的**打孔纸带（Punch Cards）**或**蚀刻黄铜片**存储。
+* **高压气动管道网（即时通讯）：** 整座城市的墙壁与地下布满了密如血管的黄铜气动管道。信件、纸带、微型物证被装入加密的“气动信梭”中，依靠压差以亚音速在几分钟内射向城市的任何一个角落。
+* **“截管客”与“打孔师”（蒸汽时代的黑客）：** 这个世界的黑客不敲键盘，他们随身携带精密听诊器、气压计与微型打孔钳。他们潜入大楼的管道井，通过听声辨位截获特定气压频率的机密信梭，或者用假孔洞篡改穿孔纸带上的金融账目与通缉令。
+
+#### 2. 记忆留声蜡筒与颅内谐振（替代《2077》的“超梦 Braindance”）
+
+* **感官蜡筒（Sensory Wax Cylinders）：** 结合了精密声学与神经炼金术的产物。通过在人的后颈或太阳穴植入“水银神经探针”，可以将一个人当时的视觉光影（转化为频闪编码）、听觉、心跳乃至痛觉神经冲动，同步刻录在特制的**高纯度蜂蜡/琥珀滚筒**上。
+* **还原仪与“黑蜡”市场：** 佩戴沉重的黄铜目镜与骨传导耳罩，启动发条还原仪，就能体验他人被刻录下的感官记忆。这也催生了地下黑市最暴利的“死人蜡（Death-Wax）”交易——刻录被害者死亡前最后三分钟极度恐惧或痛苦的感官片段，这正是悬疑推理绝佳的切入点。
+
+#### 3. 液压殖装与“蒸汽失控”（替代赛博义体与赛博精神病）
+
+* **发条与液压义体：** 驱动义体的不是锂电池，而是微型**高压以太锅炉**或**高密度发条蓄能匣**。改装者身上常伴有轻微的齿轮咬合声与定时排气的白雾。高阶贵族使用静音的纯银钟表级微缩义体，而底层帮派则焊接粗糙的重型工业液压臂、内置簧片霰弹枪或蒸汽撞针。
+* **机魂躁狂症 / 汞蒸汽中毒（类似赛博精神病）：** 为了让机械义体与人类神经无缝连接，必须使用一种名为“赫尔墨斯红汞”的神经传导液。义体植入过多、或长期使用劣质传导液，会导致红汞蒸汽渗入大脑皮层，引发严重的幻听（总能听到不存在的齿轮摩擦声）、偏执狂与痛觉丧失，最终变成只知道杀戮与拆解活人充当零件的“失控铁尸”。
+
+---
+
+### 二、 主舞台城市设定：【铁冠城·诺克斯（Nox）】
+
+这是一座建立在巨大地热裂谷与煤矿原址上的垂直立体大都会，也是大陆唯一不受传统王权直接管辖的“自由贸易与重工特区”。
+
+| 城市层级 | 区域名称 | 环境特征与视觉风格 | 核心常驻群体 |
+| --- | --- | --- | --- |
+| **顶层（云端）** | **白银温室区（The Canopy）** | 位于黑烟层之上，由巨大的玻璃穹顶与纯铜排风塔构成，终年沐浴阳光，街道干净，依靠纯净水力发条运作。 | 辛迪加董事会家族、旧大陆流亡王室、高阶钟表匠。 |
+| **中层（地表）** | **铸铁回廊与万国租界（Iron Corridors）** | 永远笼罩在煤烟与黄雾中，头顶是交错纵横的蒸汽高架列车与气动管道桥，霓虹灯被**五彩弧光灯与磷火灯牌**取代。 | 市政警探、工厂白领、各国商团、侦探、合法打孔师。 |
+| **底层（地渊）** | **锈水巷与排污深渊（The Sump）** | 终年不见天日，上层排放的工业冷却水形成连绵不断的酸雨（被当地人称为“铁锈雨”），街道积水泛着油污磷光。 | 街头帮派、黑医（拆件匠）、苦力、通缉犯、黑蜡贩子。 |
+| **城外（荒原）** | **灰烬盐沼（The Ash Wastes）** | 工业废渣堆积成的无边荒漠，分布着废弃矿井与横跨大陆的装甲铁道线。 | 铁道游牧民、列车劫匪、走私客（类似《2077》恶土流浪者）。 |
+
+---
+
+### 三、 政治、经济、文化与多族裔势力网
+
+诺克斯城的魅力在于“没有任何一方拥有绝对的统治权”，所有势力都在齿轮的缝隙中互相倾轧。
+
+#### 1. 政治与巨型企业（三大辛迪加 vs. 市政厅）
+
+* **巴贝奇-瓦特联合体（算力与精密垄断）：** 掌控全城中央差分塔、穿孔纸带银行系统与高阶发条义体。行事作风如同冷酷的数学家，坚信“一切人类行为皆可被差分机预测”。
+* **普罗米修斯重工（能源与军工霸权）：** 垄断了核心能源“重质焦油”的提炼、跨大陆装甲列车与重型液压武器，拥有私人武装“铁甲掷弹兵”，作风粗暴直接。
+* **美第奇炼金与神经学会（生物与医疗）：** 掌控红汞神经液、感官蜡筒刻录技术、成瘾性炼金药剂以及人体器官培育，游走于黑白两道之间。
+* **诺克斯市政厅与“猎犬”治安署：** 表面上的官方统治机构，实则在三大辛迪加的资金扶持下苟延残喘。治安署内部派系林立，既有收受帮派黑钱的底层巡警，也有专门处理义体失控者的重装部队“泄压者（The Bleeders）”。
+
+#### 2. 多族裔与街头帮派（文化碰撞）
+
+* **东方铁道遗民·“神机堂 / 唐山街”：** 百年前被招募来修建跨大陆铁道的东方劳工与机关师后裔。他们不推崇西方的粗重液压，而是将**鲁班木甲术、微缩火药雕刻与中医针灸神经接驳**结合，制造出极其轻便致命的竹铜复合义体。唐山街挂满防酸油纸灯笼，是城里最大的情报与精密零件黑市。
+* **北方冻土流亡者·“红炉兄弟会”：** 来自北方战乱帝国的退伍铁甲兵与重工业矿工，体型魁梧，盘踞在重工业船坞区。他们崇尚大口径左轮、重型锅炉改装与地下液压拳击，垄断了走私军火与冷酷的雇佣兵业务。
+* **吉普赛游牧商团·“水银篷车会”：** 活跃在灰烬盐沼与城市边缘的游牧族裔，驾驶着如同移动堡垒般的履带式蒸汽大篷车。他们是天生的走私犯、占星师与感官蜡筒猎人，掌握着进出诺克斯城的秘密地下铁道。
+* **机械狂热教派·“碎肉苦修会”：** 极端宗教团体，认为血肉是原罪，只有黄铜与蒸汽才是永恒。他们常在锈水巷绑架活人进行强制机械改造，或策划针对上层温室区的恐怖袭击。
+
+#### 3. 经济与底层生活逻辑
+
+* **硬通货：** 除了常规的“金克朗”，底层更认由巴贝奇联合体发行的“标准气压币”（可直接插进街头充能桩，为义体补充高压蒸汽或发条动能）。
+* **生存痛点：** 空气与水。上层呼吸过滤后的雪松味暖风，底层人出门必须佩戴更换滤芯的黄铜防毒面罩；滤芯与抗红汞排异药剂（抑制剂）是底层人每个月最大的开销，也是逼迫无数人犯罪的经济枷锁。
+
+---
+
+### 四、 悬疑推理 × 男频网文：核心融合与写作建议
+
+在男频网文中写悬疑推理，最忌讳写成“纯古典本格的枯燥解谜”（容易导致节奏慢、读者流失）。最成功的模式是“设定系硬核推理 + 强爽点人物成长 + 势力暗网升级”。
+
+#### 1. 利用“蒸汽朋克物理规则”设计诡计（设定系推理）
+
+不要让蒸汽朋克只停留在背景描写上，要让**世界观本身成为凶手作案的工具与主角破案的线索**：
+
+* **不在场证明诡计：** 凶手利用全城气动管道在下午六点工厂统一泄压时的“三分钟气压差盲区”，从三公里外的办公室内投递装有炼金毒气的信梭完成远程密室杀人。
+* **感官蜡筒伪造案：** 目击者交出了一枚记录了凶案现场的“感官蜡筒”，所有人都以为铁证如山。但主角通过还原仪听出背景里的蒸汽钟声比标准音高了半个音阶，推算出蜡筒刻录时的环境气压高于地表——从而识破凶案第一现场根本不在中城区，而是在地下三百米的深渊区，蜡筒是被移花接木伪造的。
+* **义体痕迹学（机械法医）：** 尸体被重型液压拳击碎胸骨，全城有上万人装有同款义体。但主角通过死者伤口残留的微量“鲸油润滑剂”与黄铜碎屑的磨损角度，推断出凶手是个左撇子、且近期在唐山街某家特定黑医处更换过密封圈。
+
+#### 2. 主角人设与“男频金手指”设计
+
+男频读者需要明确的主角优势（金手指）来提供阅读爽感与破案合理性，同时支撑后期的战斗力升级：
+
+* **方向A：【颅内活体差分机】（偏智斗与推演）**
+主角的大脑因一场实验事故或特殊体质，具备了类似“生物差分机”的构造。消耗高热量食物或特制炼金药剂后，可开启“超频推演状态”——视野中自动浮现机械辅助线、弹道轨迹、蒸汽流体方向与微表情肌肉牵引数据，在脑中构建案发现场的1:1机械模型进行回溯。
+* **方向B：【万物公差之眼 / 首席验尸官】（偏法医与机械改装）**
+主角是一名被警署开除的前军工机械师或底层验尸官。当他触碰任何机械造物、义体残骸或穿孔纸带时，能“读取”这件物品的金属疲劳度、组装匠人的手法特征乃至最近三次激发时的环境温度。他既能解剖尸体，又能解剖机械，还能从每个案件的凶手身上拆下稀有义体零件，不断改装升级自己的装备。
+
+#### 3. 连载节奏设计：“单元剧破案 + 序列/装备养成 + 主线揭秘”
+
+* **黄金前三章（开局抓人）：**
+不要在第一章写长达三千字的编年史背景介绍！直接用一场极具视觉冲击力的“蒸汽朋克奇观命案”开局——例如：一具被抽干了血液、胸腔被改造成精密八音盒的辛迪加高管尸体，悬挂在万国租界通往上城区的巨型钟楼指针上，随着整点报时向全城播放一段死前遗言蜡筒。主角因被卷入其中（或受雇调查），必须在24小时内赶在治安署“泄压者”毁尸灭迹前找出真凶。
+* **小高潮与即时战利品（防疲软机制）：**
+男频读者看重“收获感”。每侦破一个单元案（约15~25章），主角不仅要获得推理出真相的智力爽感，还要获得**实打实的战利品**——比如：一张失传的军用级义体设计纸带、一笔能买下整条街区的气压币、某个帮派大佬的欠条、或是解开自身金手指下一阶段的特殊炼金材料。
+* **网状草蛇灰线（双线叙事）：**
+* **明线（单元案件）：** 从底层的“黑蜡连环杀人案”，到中城区的“无人装甲列车劫持案”，再到上城区的“贵族机械替身弑父案”，舞台逐层向上推进。
+* **暗线（核心主线）：** 所有的诡异案件背后，都隐约指向中央差分塔正在秘密计算的一个终极公式——三大辛迪加似乎在试图用整座城市的蒸汽管网与几百万市民的神经蜡筒，拼凑出一个拥有自我意识的“机械神明”。
+
+#### 4. 氛围感细节词库（写作时可随时调用的感官锚点）
+
+在日常行文中，多用五官感受代替干瘪的设定说明：
+
+* **听觉：** 齿轮咬合的咔哒声、气动信梭在墙体内呼啸而过的闷响、义体排气阀嘶嘶的白噪音、酸雨敲打黄铜雨棚的密集鼓点。
+* **嗅觉：** 劣质煤焦油的刺鼻味、臭氧与电弧灼烧的金属腥味、死水巷里的铁锈味、上城区权贵身上的雪松香精与高级钟表鲸油味。
+* **视觉：** 永远擦不干净的防风目镜、在黄雾中晕染开的幽绿磷火路灯、从风衣下摆露出的黄铜液压管线、漫天飞舞如雪花般的废弃打孔纸带碎屑。
+【原文结束：task-087-q02】
+
+[task-087-q03] 原任务第 3 次提问（原消息第 5 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-087.html#task-087-q03
+关系：主题或内容扩展；前一实质提问 task-087-q02；任务首问 task-087-q01
+数量原文：本条未给出可摘录的字面数量；仍需连同本任务上下文阅读。
+原文 SHA256：dcfbcbfb02feea2a5a82011c3abd8451b27971d8623da6c635733b0f12bcfe1d
+【原文开始：task-087-q03；字符数=6】
+如果是本格呢
+【原文结束：task-087-q03】
+
+[task-087-q04] 原任务第 4 次提问（原消息第 7 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-087.html#task-087-q04
+关系：主题与条件补充；前一实质提问 task-087-q03；任务首问 task-087-q01
+数量原文：不少于60种
+原文 SHA256：062039a3d1f3fa48f460d2f86c258e321118a8f9be29b4eab4314c0ca6b8d071
+【原文开始：task-087-q04；字符数=79】
+请完善这个世界观，给出总体的介绍以及细致的设定，不要有过于AI味与防御性的叙述，并给我在这个世界观各个阶级各种条件下发生的典型日常或者非日常场景，不少于60种
+【原文结束：task-087-q04】
+
+任务 088｜整理人物情绪写作技巧
+来源项目：灵感；分类：人物与关系；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：1 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-088.html
+
+[task-088-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-088.html#task-088-q01
+关系：任务首问；任务首问 task-088-q01
+数量原文：不少于100条
+原文 SHA256：5bf14232ba652eaffa578b02fc84b7c67d284ffd787dd4bbfea1603bbcf71ea4
+【原文开始：task-088-q01；字符数=71】
+我希望进行写作，想要了解人物的各种情绪应该如何表现，请帮助我整理写作技巧，可以适当附上名著（中外均可）的经典描写作为参考与解析。不少于100条
+【原文结束：task-088-q01】
+
+任务 089｜人物塑造技巧整理
+来源项目：灵感；分类：人物与关系；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：1 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-089.html
+
+[task-089-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-089.html#task-089-q01
+关系：任务首问；任务首问 task-089-q01
+数量原文：不少于100条
+原文 SHA256：2008a98b8747cf50615482fabe49405bd453378883f50320d07d5535cc9efcaf
+【原文开始：task-089-q01；字符数=71】
+我希望进行写作，想要了解人物如何立起形象、丰满形象，请帮助我整理写作技巧，可以适当附上名著（中外均可）的经典描写作为参考与解析。不少于100条
+【原文结束：task-089-q01】
+
+任务 090｜整理冲突写作技巧
+来源项目：灵感；分类：叙事与结构；用户提问：1 条；完整聊天消息：2 条；聊天内文档引用：1 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-090.html
+
+[task-090-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-090.html#task-090-q01
+关系：任务首问；任务首问 task-090-q01
+数量原文：不少于100条
+原文 SHA256：5f19a7e5a8c9e2817e4144643f792e5c7169a99926bf758b8922fbf5bda52c8e
+【原文开始：task-090-q01；字符数=121】
+我希望进行写作，想要了解情节冲突与戏剧斗争如何安排，请帮助我整理写作技巧，可以适当附上名著（中外均可）的经典描写作为参考与解析（比如教父里各大家族如何博弈如何谈判如何各怀鬼胎，又如何通过描写与叙述传递给读者，当然不要局限于此）。不少于100条
+【原文结束：task-090-q01】
+
+任务 091｜整理法律悬疑素材
+来源项目：灵感；分类：叙事与结构；用户提问：2 条；完整聊天消息：4 条；聊天内文档引用：1 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-091.html
+
+[task-091-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-091.html#task-091-q01
+关系：任务首问；任务首问 task-091-q01
+数量原文：各不少于50条
+原文 SHA256：0bb0df54cf2b12ac2f662a4439356ba100b89ba605548db698491d1a8284a4aa
+【原文开始：task-091-q01；字符数=67】
+我想进行网文男频写作，目前倾向于悬疑题材，请帮助我整理搜集法律以及法律的漏洞在悬疑推理题材里的应用（本格与非本格均可，各不少于50条）
+【原文结束：task-091-q01】
+
+[task-091-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-091.html#task-091-q02
+关系：主题与条件补充；前一实质提问 task-091-q01；任务首问 task-091-q01
+数量原文：不少于50条
+原文 SHA256：d3f8667e84327acf5219c609bd503259f2e7e8f61ee24938f8bfb71632f335d5
+【原文开始：task-091-q02；字符数=86】
+注意不一定是当代的，历史上已被修改或废除的法律条文也可以纳入考虑，比如说被人用来脱罪、或者想要用漏洞脱罪却被主角翻出很少考虑到很少被应用的法条制止了脱罪等等（不少于50条）
+【原文结束：task-091-q02】
+
+任务 092｜悬疑职业与查案技巧整理
+来源项目：灵感；分类：叙事与结构；用户提问：2 条；完整聊天消息：4 条；聊天内文档引用：2 处。
+完整聊天与文档入口：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-092.html
+
+[task-092-q01] 原任务第 1 次提问（原消息第 1 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-092.html#task-092-q01
+关系：任务首问；任务首问 task-092-q01
+数量原文：不少于100条；不少于100条
+原文 SHA256：6af05d4e05e9dec16452a77e45458434b7895045d68c4f02ef488b483b15167b
+【原文开始：task-092-q01；字符数=111】
+我想进行男频网文创作，目前倾向于悬疑题材，请从本格/非本格角度，为我整理搜集警察、侦探、法医、博物学家或其他相关职业的人设要点、构筑技巧（不少于100条），以及他们审讯与查案的详细流程与用到的技术（技巧）（不少于100条）
+【原文结束：task-092-q01】
+
+[task-092-q02] 原任务第 2 次提问（原消息第 3 条）
+定位：https://patatohek-boop.github.io/linggan-writing-library/gemini-task-092.html#task-092-q02
+关系：主题与条件补充；前一实质提问 task-092-q01；任务首问 task-092-q01
+数量原文：不少于120条
+原文 SHA256：3e80311125b60804decea1ddf1313297f926732ab1a0b19e41e7218f2cc835e2
+【原文开始：task-092-q02；字符数=117】
+注意背景也可以不是当代，也可以从中世纪到现代当代的刑侦技巧（并且按照警察、律师、博物学家、法医、侦探这几个职业常使用的技巧，例如警察采集现场证物，拍照的时候拿一个标准物体放在证物边上一起拍照作为参照等）进行整理与搜集，不少于120条。
+【原文结束：task-092-q02】
