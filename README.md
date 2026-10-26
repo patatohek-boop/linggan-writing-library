@@ -52,8 +52,10 @@
 交接阅读页是在线补充入口，未重复打入原离线资料包。原始Word、Markdown和文档附件仍从主阅读器下载。
 
 
-## Gemini 原文工作台
+## 统一创作工作台
 
-[打开创作工作台](https://patatohek-boop.github.io/linggan-writing-library/workbench.html)。2026-10-26 收录用户上传的三份 Gemini 回复，工作台收录世界观、故事桥段、写作知识与创作提示词，选段保留 Gemini 原句；上传全文与原始 DOC 另存原件入口。文风审查、读取进度、代码统计和建站说明已移出日常检索。提供按项目与主题导航、全文检索、片段复制和收藏、随机灵感及相关任务入口。
+[打开统一创作工作台](https://patatohek-boop.github.io/linggan-writing-library/workbench.html)。整合92项ChatGPT任务的全部聊天、用户原问与63份聊天内原件预览，新增92篇语言整理后的主题导读，并收录用户提供的Gemini写作补充及铁冠城·诺克斯原稿。
 
-下载 `gemini-workbench-offline.zip` 后打开 `workbench.html`，可离线阅读本次三份回复与使用检索、收藏；旧92项任务的原始归档仍由 `inspiration-archive.zip` 提供。
+支持全部资料、ChatGPT原资料、Gemini补充之间切换，以及整理导读和原文与文档筛选。搜索覆盖文档正文；用户原问、ChatGPT回复、聊天内文档、整理导读和用户补充原文分别标明来源。原有Word、Markdown及原始附件版本继续保留。
+
+下载 `gemini-workbench-offline.zip` 后解压并打开 `workbench.html`。统一索引、导读、聊天和文档预览可离线阅读，原件下载仍可从主站或 `inspiration-archive.zip` 获取。Gemini原有776个写作片段保持原话，审查/读取进度等流程内容仍不进入工作台日常检索。

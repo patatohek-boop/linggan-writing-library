@@ -5,18 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
   <meta name="theme-color" content="#1d2b3c">
-  <meta name="description" content="灵感工作台：按主题查找世界观、故事桥段、写作知识与创作提示词，收藏原文片段与随机联想。">
-  <title>灵感工作台 · Gemini 原文与创作资料</title>
-  <link rel="stylesheet" href="workbench.css">
-  <script src="workbench-data.js?v=78f3b1cbfda3" defer></script>
-  <script src="workbench.js?v=0c49ad03fc2f" defer></script>
+  <meta name="description" content="灵感工作台：一起浏览和搜索 ChatGPT 整理导读、原聊天、聊天内文档与 Gemini 创作补充，收藏内容片段与随机联想。">
+  <title>灵感工作台 · ChatGPT 与 Gemini 创作资料</title>
+  <link rel="stylesheet" href="workbench.css?v=e36f1f08c117">
+  <script src="workbench-data.js?v=178ceed32099" defer></script>
+  <script src="chatgpt-archive-data.js?v=5aed24ee7aac" defer></script>
+  <script src="chatgpt-archive-part-01.js?v=4124cab95a58" defer></script>
+  <script src="chatgpt-archive-part-02.js?v=ee2df50df839" defer></script>
+  <script src="chatgpt-archive-part-03.js?v=30a8091b68ad" defer></script>
+  <script src="chatgpt-archive-part-04.js?v=f72e5deb6823" defer></script>
+  <script src="chatgpt-archive-part-05.js?v=4678c80ae24c" defer></script>
+  <script src="chatgpt-archive-part-06.js?v=1e98007eb21a" defer></script>
+  <script src="chatgpt-archive-part-07.js?v=567caf33cf5e" defer></script>
+  <script src="chatgpt-archive-part-08.js?v=c97a02c56009" defer></script>
+  <script src="workbench.js?v=ccca2621fc69" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#reading-panel">跳至正文</a>
   <header class="site-header">
-    <a class="brand" href="workbench.html" id="home-link"><span class="brand-mark" aria-hidden="true">灵</span><span><strong>灵感工作台</strong><small>GEMINI 原文与创作资料</small></span></a>
+    <a class="brand" href="workbench.html" id="home-link"><span class="brand-mark" aria-hidden="true">灵</span><span><strong>灵感工作台</strong><small>CHATGPT × GEMINI 创作资料</small></span></a>
     <nav class="top-nav" aria-label="网站导航">
-      <a href="https://patatohek-boop.github.io/linggan-writing-library/">原任务资料库 <span aria-hidden="true">↗</span></a>
+      <a href="https://patatohek-boop.github.io/linggan-writing-library/">完整聊天与下载 <span aria-hidden="true">↗</span></a>
       <a class="header-download" href="gemini-workbench-offline.zip" download>保存工作台</a>
       <button id="theme-toggle" class="icon-button" type="button" aria-label="切换夜间模式" title="切换夜间模式"></button>
     </nav>
@@ -24,43 +33,47 @@
 
   <main class="page-shell">
     <section class="intro" aria-labelledby="page-title">
-      <div><p class="eyebrow">原文保留 · 按主题查找 · 关联原任务</p><h1 id="page-title">把散落的想法放在手边</h1><p class="intro-copy">世界观、故事桥段、写作知识与创作提示词。从正在写的题材、一个术语或一句原文开始查找。</p></div>
+      <div><p class="eyebrow">原文保留 · 按主题查找 · 关联原任务</p><h1 id="page-title">把散落的想法放在手边</h1><p class="intro-copy">ChatGPT 的整理导读、原聊天与文档，连同 Gemini 补充的世界观、桥段、写作知识与提示词，一起放在这里。</p></div>
       <div class="intro-stats" id="intro-stats" aria-label="资料范围"></div>
     </section>
 
+    <section class="provider-tools" aria-label="资料来源"><span>资料来源</span><div id="provider-filters" class="provider-filters"></div><p>用户原问、模型回复与聊天内文档分别标明。</p></section>
+
+    <div class="content-type-tools" aria-label="阅读内容"><span>阅读内容</span><div id="content-type-filters" class="content-type-filters"></div></div>
+
     <section class="search-tools" aria-label="检索与创作工具">
-      <form id="search-form" class="search-box" role="search"><span id="search-icon" aria-hidden="true"></span><input id="search" type="search" placeholder="搜世界观、桥段、术语或原句…" aria-label="搜索创作资料原文" autocomplete="off"><button id="clear-query" type="button" class="icon-button" aria-label="清除搜索" hidden>×</button><kbd aria-hidden="true">/</kbd></form>
-      <div class="tool-buttons"><button id="saved-filter" class="tool-button" type="button" aria-pressed="false"><span class="button-icon" data-icon="bookmark" aria-hidden="true"></span>我的收藏 <span id="saved-count">0</span></button><button id="prompt-filter" class="tool-button" type="button" aria-pressed="false">提示词原文</button><button id="random-open" class="tool-button primary" type="button"><span class="button-icon" data-icon="shuffle" aria-hidden="true"></span>随机联想</button></div>
+      <form id="search-form" class="search-box" role="search"><span id="search-icon" aria-hidden="true"></span><input id="search" type="search" placeholder="搜世界观、桥段、术语或原句…" aria-label="搜索全部创作资料" autocomplete="off"><button id="clear-query" type="button" class="icon-button" aria-label="清除搜索" hidden>×</button><kbd aria-hidden="true">/</kbd></form>
+      <div class="tool-buttons"><button id="saved-filter" class="tool-button" type="button" aria-pressed="false"><span class="button-icon" data-icon="bookmark" aria-hidden="true"></span>我的收藏 <span id="saved-count">0</span></button><button id="prompt-filter" class="tool-button" type="button" aria-pressed="false">创作提示词</button><button id="random-open" class="tool-button primary" type="button"><span class="button-icon" data-icon="shuffle" aria-hidden="true"></span>随机联想</button></div>
     </section>
 
     <div class="mobile-navigation"><button id="toggle-navigation" type="button" aria-expanded="false" aria-controls="catalog-panel">主题与章节 <span aria-hidden="true">⌄</span></button><span id="mobile-count"></span></div>
     <div class="workbench-layout">
       <aside id="catalog-panel" class="catalog-panel" aria-label="主题与章节导航">
         <div class="filter-block"><h2>按项目找</h2><div id="project-filters" class="project-filters"></div></div>
-        <div class="filter-block"><label class="filter-heading" for="source-filter">原始资料</label><select id="source-filter" aria-label="按 Gemini 回复筛选"><option value="all">全部创作资料</option></select></div>
+        <div class="filter-block"><label class="filter-heading" for="source-filter">原始资料</label><select id="source-filter" aria-label="按原始资料筛选"><option value="all">全部创作资料</option></select></div>
         <div class="filter-block"><h2>按主题找</h2><div id="topic-filters" class="topic-filters"></div></div>
-        <div class="section-heading"><h2>章节目录</h2><button id="show-all" type="button" class="text-button">全部原文</button></div>
-        <nav id="section-list" class="section-list" aria-label="Gemini 原文章节"></nav>
-        <div class="source-shelf"><a class="text-button" href="gemini-original-index.csv" download>下载创作原文索引 CSV</a><details><summary>上传原件</summary><div id="source-links"></div></details></div>
+        <div class="section-heading"><h2>章节目录</h2><button id="show-all" type="button" class="text-button">全部资料</button></div>
+        <nav id="section-list" class="section-list" aria-label="创作资料章节"></nav>
+        <div class="source-shelf"><a class="text-button" href="all-writing-index.csv" download>下载全部资料索引 CSV</a><details><summary>原聊天、文档与上传原件</summary><div id="source-links"></div></details></div>
       </aside>
 
       <section id="reading-panel" class="reading-panel" aria-labelledby="reader-title" tabindex="-1">
-        <header class="reading-heading"><div><p id="reader-eyebrow" class="eyebrow">GEMINI 原文</p><h2 id="reader-title">全部原文</h2><p id="reader-description"></p></div><button id="reset-filters" type="button" class="text-button" hidden>清除筛选</button></header>
+        <header class="reading-heading"><div><p id="reader-eyebrow" class="eyebrow">CHATGPT × GEMINI</p><h2 id="reader-title">全部资料</h2><p id="reader-description"></p></div><button id="reset-filters" type="button" class="text-button" hidden>清除筛选</button></header>
         <div id="active-filters" class="active-filters" aria-label="当前筛选"></div>
         <details id="related-tasks" class="related-tasks" hidden><summary><span>相关原任务</span><span id="related-count"></span></summary><div id="related-task-links" class="related-task-links"></div><div id="version-links" class="version-links"></div></details>
-        <div class="result-line"><p id="result-status" role="status" aria-live="polite">正在读取资料…</p><span>原文字句保留</span></div>
+        <div class="result-line"><p id="result-status" role="status" aria-live="polite">正在读取资料…</p><span>来源标注 · 原稿可查</span></div>
         <div id="fragment-list" class="fragment-list"></div>
-        <div id="empty-state" class="empty-state" hidden><span aria-hidden="true">⌕</span><h3>这里还没有匹配的片段</h3><p id="empty-message">换一个词，或放宽主题筛选。</p><button id="empty-reset" class="tool-button" type="button">查看全部原文</button></div>
+        <div id="empty-state" class="empty-state" hidden><span aria-hidden="true">⌕</span><h3>这里还没有匹配的片段</h3><p id="empty-message">换一个词，或放宽主题筛选。</p><button id="empty-reset" class="tool-button" type="button">查看全部资料</button></div>
         <div id="more-bar" class="more-bar" hidden><button id="load-more" class="tool-button" type="button">继续显示</button><span id="page-status"></span></div>
       </section>
     </div>
   </main>
 
-  <footer class="site-footer"><span>灵感 · 写作资料库</span><p>片段按原文顺序拆分，完整段落与表格可从文档入口阅读。收藏保存在当前浏览器中。</p><a href="https://patatohek-boop.github.io/linggan-writing-library/">返回原任务资料库 ↗</a></footer>
+  <footer class="site-footer"><span>灵感 · 写作资料库</span><p>整理导读与原稿分别标明，完整聊天和格式化文档可从原版入口阅读。收藏保存在当前浏览器中。</p><a href="https://patatohek-boop.github.io/linggan-writing-library/">返回原任务资料库 ↗</a></footer>
 
-  <dialog id="paragraph-dialog" class="reading-dialog"><div class="dialog-top"><div><p class="eyebrow">完整原段</p><h2 id="paragraph-title"></h2></div><button id="paragraph-close" type="button" class="icon-button" aria-label="关闭完整原段">×</button></div><p id="paragraph-meta" class="dialog-meta"></p><div id="paragraph-text" class="paragraph-text"></div><div class="dialog-actions"><button id="paragraph-copy" class="tool-button" type="button">复制完整原段</button><a id="paragraph-source" class="tool-button" href="#">查看文档原版 ↗</a></div></dialog>
-  <dialog id="random-dialog" class="random-dialog"><div class="dialog-top"><div><p class="eyebrow">从现有原文里随机选取</p><h2>放在一起，看看会想到什么</h2></div><button id="random-close" type="button" class="icon-button" aria-label="关闭随机联想">×</button></div><p id="random-description" class="dialog-meta"></p><div id="random-cards" class="random-cards"></div><div class="dialog-actions"><button id="random-again" type="button" class="tool-button primary">再选一组</button><button id="random-copy" type="button" class="tool-button">复制这组原文</button></div></dialog>
+  <dialog id="paragraph-dialog" class="reading-dialog"><div class="dialog-top"><div><p class="eyebrow">完整原段</p><h2 id="paragraph-title"></h2></div><button id="paragraph-close" type="button" class="icon-button" aria-label="关闭完整原段">×</button></div><p id="paragraph-meta" class="dialog-meta"></p><div id="paragraph-text" class="paragraph-text"></div><div class="dialog-actions"><button id="paragraph-copy" class="tool-button" type="button">复制完整原段</button><a id="paragraph-source" class="tool-button" href="#">打开来源页 ↗</a></div></dialog>
+  <dialog id="random-dialog" class="random-dialog"><div class="dialog-top"><div><p class="eyebrow">从现有资料里随机选取</p><h2>放在一起，看看会想到什么</h2></div><button id="random-close" type="button" class="icon-button" aria-label="关闭随机联想">×</button></div><p id="random-description" class="dialog-meta"></p><div id="random-cards" class="random-cards"></div><div class="dialog-actions"><button id="random-again" type="button" class="tool-button primary">再选一组</button><button id="random-copy" type="button" class="tool-button">复制这组内容</button></div></dialog>
   <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
-  <noscript><div class="noscript-message">检索与收藏需要 JavaScript。也可以直接阅读完整原文：<a href="source-01.html">回复一</a>、<a href="source-02.html">回复二</a>、<a href="source-03.html">回复三</a>。</div></noscript>
+  <noscript><div class="noscript-message">检索与收藏需要 JavaScript。可直接打开<a href="https://patatohek-boop.github.io/linggan-writing-library/">ChatGPT 原任务资料库</a>，或阅读 Gemini 补充原件：<a href="source-01.html">回复一</a>、<a href="source-02.html">回复二</a>、<a href="source-03.html">回复三</a>。</div></noscript>
 </body>
 </html>
