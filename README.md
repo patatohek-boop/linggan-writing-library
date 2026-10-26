@@ -50,3 +50,10 @@
 全站可直读入口：[Gemini 交接与全文阅读](https://patatohek-boop.github.io/linggan-writing-library/gemini-handoff.html)。包含全部92项任务的聊天与文档正文，以及152条用户原问清单。两套交接指令分别用于文风审查和研究解答；任务结果按QID记录在进度表。
 
 交接阅读页是在线补充入口，未重复打入原离线资料包。原始Word、Markdown和文档附件仍从主阅读器下载。
+
+
+## Gemini 原文工作台
+
+[打开创作工作台](https://patatohek-boop.github.io/linggan-writing-library/workbench.html)。2026-10-26 收录用户上传的三份 Gemini 回复，原文、表格、代码与原始 DOC 均保留。新增按项目与主题导航、全文检索、片段复制和收藏、随机灵感及相关任务入口。
+
+下载 `gemini-workbench-offline.zip` 后打开 `workbench.html`，可离线阅读本次三份回复与使用检索、收藏；旧92项任务的原始归档仍由 `inspiration-archive.zip` 提供。
