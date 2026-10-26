@@ -54,6 +54,6 @@
 
 ## Gemini 原文工作台
 
-[打开创作工作台](https://patatohek-boop.github.io/linggan-writing-library/workbench.html)。2026-10-26 收录用户上传的三份 Gemini 回复，原文、表格、代码与原始 DOC 均保留。新增按项目与主题导航、全文检索、片段复制和收藏、随机灵感及相关任务入口。
+[打开创作工作台](https://patatohek-boop.github.io/linggan-writing-library/workbench.html)。2026-10-26 收录用户上传的三份 Gemini 回复，工作台收录世界观、故事桥段、写作知识与创作提示词，选段保留 Gemini 原句；上传全文与原始 DOC 另存原件入口。文风审查、读取进度、代码统计和建站说明已移出日常检索。提供按项目与主题导航、全文检索、片段复制和收藏、随机灵感及相关任务入口。
 
 下载 `gemini-workbench-offline.zip` 后打开 `workbench.html`，可离线阅读本次三份回复与使用检索、收藏；旧92项任务的原始归档仍由 `inspiration-archive.zip` 提供。

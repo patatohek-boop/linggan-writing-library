@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
   <meta name="theme-color" content="#1d2b3c">
-  <meta name="description" content="灵感工作台：完整保存 Gemini 回复，按主题检索原文、关联原任务、收藏片段与随机联想。">
+  <meta name="description" content="灵感工作台：按主题查找世界观、故事桥段、写作知识与创作提示词，收藏原文片段与随机联想。">
   <title>灵感工作台 · Gemini 原文与创作资料</title>
   <link rel="stylesheet" href="workbench.css">
   <script src="workbench-data.js" defer></script>
@@ -17,7 +17,6 @@
     <a class="brand" href="workbench.html" id="home-link"><span class="brand-mark" aria-hidden="true">灵</span><span><strong>灵感工作台</strong><small>GEMINI 原文与创作资料</small></span></a>
     <nav class="top-nav" aria-label="网站导航">
       <a href="https://patatohek-boop.github.io/linggan-writing-library/">原任务资料库 <span aria-hidden="true">↗</span></a>
-      <a href="https://patatohek-boop.github.io/linggan-writing-library/gemini-handoff.html">交接与全站原问</a>
       <a class="header-download" href="gemini-workbench-offline.zip" download>保存工作台</a>
       <button id="theme-toggle" class="icon-button" type="button" aria-label="切换夜间模式" title="切换夜间模式"></button>
     </nav>
@@ -25,12 +24,12 @@
 
   <main class="page-shell">
     <section class="intro" aria-labelledby="page-title">
-      <div><p class="eyebrow">原文保留 · 按主题查找 · 关联原任务</p><h1 id="page-title">把散落的想法放在手边</h1><p class="intro-copy">三份 Gemini 回复完整保留。从正在写的题材、一个术语或一句原文开始查找。</p></div>
+      <div><p class="eyebrow">原文保留 · 按主题查找 · 关联原任务</p><h1 id="page-title">把散落的想法放在手边</h1><p class="intro-copy">世界观、故事桥段、写作知识与创作提示词。从正在写的题材、一个术语或一句原文开始查找。</p></div>
       <div class="intro-stats" id="intro-stats" aria-label="资料范围"></div>
     </section>
 
     <section class="search-tools" aria-label="检索与创作工具">
-      <form id="search-form" class="search-box" role="search"><span id="search-icon" aria-hidden="true"></span><input id="search" type="search" placeholder="搜世界观、桥段、术语或原句…" aria-label="搜索全部 Gemini 原文" autocomplete="off"><button id="clear-query" type="button" class="icon-button" aria-label="清除搜索" hidden>×</button><kbd aria-hidden="true">/</kbd></form>
+      <form id="search-form" class="search-box" role="search"><span id="search-icon" aria-hidden="true"></span><input id="search" type="search" placeholder="搜世界观、桥段、术语或原句…" aria-label="搜索创作资料原文" autocomplete="off"><button id="clear-query" type="button" class="icon-button" aria-label="清除搜索" hidden>×</button><kbd aria-hidden="true">/</kbd></form>
       <div class="tool-buttons"><button id="saved-filter" class="tool-button" type="button" aria-pressed="false"><span class="button-icon" data-icon="bookmark" aria-hidden="true"></span>我的收藏 <span id="saved-count">0</span></button><button id="prompt-filter" class="tool-button" type="button" aria-pressed="false">提示词原文</button><button id="random-open" class="tool-button primary" type="button"><span class="button-icon" data-icon="shuffle" aria-hidden="true"></span>随机联想</button></div>
     </section>
 
@@ -38,11 +37,11 @@
     <div class="workbench-layout">
       <aside id="catalog-panel" class="catalog-panel" aria-label="主题与章节导航">
         <div class="filter-block"><h2>按项目找</h2><div id="project-filters" class="project-filters"></div></div>
-        <div class="filter-block"><label class="filter-heading" for="source-filter">原始资料</label><select id="source-filter" aria-label="按 Gemini 回复筛选"><option value="all">全部三份回复</option></select></div>
+        <div class="filter-block"><label class="filter-heading" for="source-filter">原始资料</label><select id="source-filter" aria-label="按 Gemini 回复筛选"><option value="all">全部创作资料</option></select></div>
         <div class="filter-block"><h2>按主题找</h2><div id="topic-filters" class="topic-filters"></div></div>
         <div class="section-heading"><h2>章节目录</h2><button id="show-all" type="button" class="text-button">全部原文</button></div>
         <nav id="section-list" class="section-list" aria-label="Gemini 原文章节"></nav>
-        <div class="source-shelf"><h2>完整文档与原件</h2><p>保留表格与原始段落的阅读入口。</p><div id="source-links"></div><a class="text-button" href="gemini-original-index.csv" download>下载原文索引 CSV</a></div>
+        <div class="source-shelf"><a class="text-button" href="gemini-original-index.csv" download>下载创作原文索引 CSV</a><details><summary>上传原件</summary><div id="source-links"></div></details></div>
       </aside>
 
       <section id="reading-panel" class="reading-panel" aria-labelledby="reader-title" tabindex="-1">
